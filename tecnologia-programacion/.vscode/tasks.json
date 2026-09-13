@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "Compilar C++ (g++)",
+      "command": "C:/msys64/ucrt64/bin/g++.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "-Wall",
+        "-Wextra",
+        "-std=c++17",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}.exe"
+      ],
+      "options": { "cwd": "${fileDirname}" },
+      "problemMatcher": ["$gcc"],
+      "group": { "kind": "build", "isDefault": true },
+      "detail": "Compila el archivo abierto con el g++ de MSYS2. Atajo: Ctrl+Shift+B"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+# Compilados y binarios
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+build/
+bin/
+obj/
+
+# Java
+*.class
+*.jar
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editores
+.vs/
+*.user
+*.layout
+*.depend
+*.cbp
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Material de estudio: NO va aqui ---
+# Los PDF, guias, apuntes y cronogramas viven en:
+#   C:\\Users\\ikerf\\Desktop\\Estudios\\1o Informatica UR  (espejado en Drive)
+# Este repositorio es SOLO codigo. Si algo de esto aparece, es que se ha copiado por error.
+*.pdf
+*.pptx
+*.docx
+1?? Inform*tica UR/
+Formularios/
+Bibliograf*a/
