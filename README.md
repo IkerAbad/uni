@@ -26,9 +26,9 @@ Las asignaturas sin componente de programación no aparecen aquí.
 
 ```
 asignatura/
-├── .vscode/              configuración de compilación y depuración
-├── Practicas/            prácticas de la asignatura
-└── Ejercicios propios/   ejercicios adicionales
+├── .vscode/     configuración de compilación y depuración
+├── Ejercicios/  práctica y pruebas personales, no se entrega
+└── Entregas/    lo que se sube al aula virtual, una carpeta por práctica (P1, P2, ...)
 ```
 
 ## Convenciones
