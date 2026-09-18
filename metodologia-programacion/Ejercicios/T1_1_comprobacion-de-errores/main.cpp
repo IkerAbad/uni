@@ -14,11 +14,11 @@
 	#include <iostream>
 	using namespace std;
 
-	int main(
+	int main()
 	{
 	  float a,b,c,d;	// variables para los coeficientes
 	  float x;		// variable para la incógnita
-	  float p	// variable para el resultado
+	  float p;	// variable para el resultado
 
 	  // Entrada de datos
 	  cout << "Introducir los valores de: " << endl;
