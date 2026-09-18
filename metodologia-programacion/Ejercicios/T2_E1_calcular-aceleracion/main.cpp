@@ -5,7 +5,7 @@
         Conocida la fuerza que actúa sobre una partícula y su masa, calcular su aceleración
     ENTRADAS: fuerza (float) y masa (float) de una partícula
     SALIDAS: valor de la aceleración (float) ->(a=F/m)
-    ERRORES: masa<0
+    ERRORES: masa=0
 */
 #include <iostream>
 
