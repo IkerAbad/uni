@@ -15,7 +15,7 @@ int main()
     int mayuscula;
 
     cout << "Introduce una letra minúscula:" << endl;
-    cin >>minuscula;
+    cin >> minuscula;
 
 //convertir a mayúscula
     mayuscula = int(minuscula) - 32;

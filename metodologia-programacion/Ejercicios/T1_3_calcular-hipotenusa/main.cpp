@@ -17,9 +17,9 @@ int main()
 
     cout << "Introduce el valor del cateto 1 y del cateto 2";
     cout << endl<< "cateto 1 = ";
-    cin >>c1;
+    cin >> c1;
     cout << "cateto 2 = ";
-    cin >>c2;
+    cin >> c2;
 
 //cálculo de la hipotenusa
     h=sqrt((c1*c1)+(c2*c2));
