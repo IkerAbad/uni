@@ -19,16 +19,16 @@ Las asignaturas sin componente de programación no aparecen aquí.
 ## Entorno
 
 - **Compilador:** g++ (MSYS2 / UCRT64), C++17, con `-Wall -Wextra`
-- **Editor:** VS Code. Las carpetas de C++ incluyen su `.vscode`:
-  `Ctrl+Shift+B` compila, `F5` depura con gdb
+- **Editor:** Code::Blocks 25.03 (entorno del curso, trae su propio MinGW) o VS Code:
+  las carpetas de C++ incluyen su `.vscode` (`Ctrl+Shift+B` compila, `F5` depura con gdb)
 
 ## Estructura
 
 ```
 asignatura/
 ├── .vscode/     configuración de compilación y depuración
-├── Ejercicios/  práctica y pruebas personales, no se entrega
-└── Entregas/    lo que se sube al aula virtual, una carpeta por práctica (P1, P2, ...)
+├── Ejercicios/  práctica personal: pruebas y ejercicios sueltos, no se entrega
+└── Entregas/    solo trabajo propio acabado, cuando toca subirlo al aula virtual
 ```
 
 ## Convenciones
