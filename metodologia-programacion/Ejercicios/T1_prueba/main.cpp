@@ -4,6 +4,8 @@ using namespace std;
 
 int main()
 {
+    setlocale(LC_CTYPE, "Spanish");
+
     const int base=5, altura=7;
     int area;
 
