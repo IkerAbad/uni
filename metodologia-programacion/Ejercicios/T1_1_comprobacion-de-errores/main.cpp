@@ -1,5 +1,5 @@
 /*
-	  FECHA:
+	  FECHA: 18/09/2026
 	  AUTOR:
 	  DESCRIPCIÓN:
 	    Calcula el valor de un polinomio de tercer grado para un valor concreto
