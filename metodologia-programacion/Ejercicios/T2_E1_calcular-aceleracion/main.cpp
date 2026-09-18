@@ -23,7 +23,7 @@ int main()
     cin >> fuerza;
 
 //cálculo de la aceleración
-    aceleracion=fuerza/masa;
+    aceleracion = fuerza / masa;
 
 //muestra los resultados
     cout << "El valor de la aceleración es " << aceleracion << endl;
