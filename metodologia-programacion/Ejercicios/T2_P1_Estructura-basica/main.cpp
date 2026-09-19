@@ -1,4 +1,14 @@
 /*
+
+    FECHA: <la fecha de creación>
+    AUTOR: <nombre del programador>
+    DESCRIPCIÓN:
+    < qué es lo que hace el programa >
+    ENTRADAS: <nombre de las variables de entrada y cómo deben ser >
+    SALIDAS: <variables de salida>
+    ERRORES: <Condiciones de error, a qué se deben y cómo evitarlas.>
+
+
 #include <nombre_de_fichero>            //directivas al preprocesador
 
 using namespace std;
