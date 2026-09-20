@@ -1,5 +1,5 @@
 /*
-    FECHA: 19/09/2026
+    FECHA: 19-09-2026
     AUTOR: Iker
     DESCRIPCIÓN:
         Conversión de una cantidad positiva de segundos a su equivalente en horas, minutos y segundos

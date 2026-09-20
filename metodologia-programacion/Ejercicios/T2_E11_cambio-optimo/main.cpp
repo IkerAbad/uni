@@ -1,5 +1,5 @@
 /*
-    FECHA: 19/09/2026
+    FECHA: 19-09-2026
     AUTOR: Iker
     DESCRIPCIÓN:
         Programa que obtenga el cambio óptimo (mínimo número de monedas posible) de una cantidad de céntimos de euro (entre 0 y 99), en monedas de 50, 20, 10, 5, 2 y 1 céntimo

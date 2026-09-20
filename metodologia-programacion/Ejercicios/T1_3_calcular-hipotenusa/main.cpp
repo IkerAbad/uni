@@ -1,5 +1,5 @@
 /*
-    FECHA: 18/09/2026
+    FECHA: 18-09-2026
     AUTOR: Iker
     DESCRIPCIÓN:
         Escribe un programa que, dados los catetos de un triángulo rectángulo cualquiera, calcule el valor de su hipotenusa y lo muestre por pantalla.

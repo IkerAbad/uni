@@ -1,5 +1,5 @@
 /*
-    FECHA: 18/09/2026
+    FECHA: 18-09-2026
     AUTOR: profesores de Informática
     DESCRIPCIÓN:
         Calcula el valor de las raíces de un polinomio de coeficientes reales.

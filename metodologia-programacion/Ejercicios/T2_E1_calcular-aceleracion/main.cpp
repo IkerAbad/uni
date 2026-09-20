@@ -1,5 +1,5 @@
 /*
-    FECHA: 18/09/2026
+    FECHA: 18-09-2026
     AUTOR: Iker
     DESCRIPCIÓN:
         Conocida la fuerza que actúa sobre una partícula y su masa, calcular su aceleración

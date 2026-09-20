@@ -1,5 +1,5 @@
 /*
-    FECHA: 19/09/2026
+    FECHA: 19-09-2026
     AUTOR: Iker
     DESCRIPCIÓN:
         Convertir una cantidad dada en euros a sus equivalentes en dólares y libras. Son datos de entrada también el valor de cambio de las monedas.

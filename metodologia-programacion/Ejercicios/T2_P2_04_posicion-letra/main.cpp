@@ -15,8 +15,8 @@ principio
 fin
 */
 /*
-    FECHA:
-    AUTOR:
+    FECHA: 20-09-2026
+    AUTOR: Iker
     DESCRIPCIÓN:
         Dada una letra mayúscula calcula cuál es su posición en el alfabeto
     ENTRADAS: letra (la letra mayúscula)

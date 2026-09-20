@@ -1,5 +1,5 @@
 /*
-    FECHA: 19/09/2026
+    FECHA: 19-09-2026
     AUTOR: Iker
     DESCRIPCIÓN:
         Convertir una medida dada en pies a sus equivalentes en: a) yardas: b) pulgadas; c) centímetros, y d) metros ( 1 pie = 12 pulgadas, 1 yarda = 3 pies, 1 pulgada = 2.54 cm)

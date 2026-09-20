@@ -21,8 +21,8 @@ inicio
 fin
 */
 /*
-    FECHA:    20/09/2026
-    AUTOR:    Iker
+    FECHA:    20-09-2026
+    AUTOR: Iker
     DESCRIPCIÓN: Convertir una cantidad positiva de segundos a su equivalente en horas, minutos y segundos
     ENTRADAS: cantidad (int)
     SALIDAS:  horas, minutos, segundos (int)
