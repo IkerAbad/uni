@@ -1,5 +1,5 @@
 /*
-    FECHA: 18/09/2026
+    FECHA: 18-09-2026
     AUTOR: Iker
     DESCRIPCIÓN:
         Escribe un programa que, dada una letra minúscula muestre por pantalla la correspondiente letra mayúscula.

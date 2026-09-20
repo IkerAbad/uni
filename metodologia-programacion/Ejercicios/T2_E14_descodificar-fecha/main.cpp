@@ -1,5 +1,5 @@
 /*
-    FECHA: 19/09/2026
+    FECHA: 19-09-2026
     AUTOR: Iker
     DESCRIPCIÓN:
         Descodificar una fecha expresada como un entero de 6 dígitos en la forma DDMMAA (Ejm: a partir del entero 251024, escribir “25 de 10 de 2024”)

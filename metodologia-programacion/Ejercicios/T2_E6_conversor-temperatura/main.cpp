@@ -1,5 +1,5 @@
 /*
-    FECHA: 19/09/2026
+    FECHA: 19-09-2026
     AUTOR: Iker
     DESCRIPCIÓN:
         Transformar una temperatura dada en grados centígrados a su equivalente en fahrenheit. La fórmula de conversión es: Fahrenheit = 9/5 Centígrado+ 32

@@ -1,5 +1,5 @@
 /*
-    FECHA: 19/09/2026
+    FECHA: 19-09-2026
     AUTOR: Iker
     DESCRIPCIÓN:
         Algoritmo que lea dos enteros recogiéndolos en dos variables e intercambie el contenido de esas dos variables

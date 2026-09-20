@@ -1,5 +1,5 @@
 /*
-    FECHA: 19/09/2026
+    FECHA: 19-09-2026
     AUTOR: Iker
     DESCRIPCIÓN:
         Leer una letra minúscula y escribir la mayúscula correspondiente

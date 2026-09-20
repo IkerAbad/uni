@@ -1,5 +1,5 @@
 /*
-    FECHA: 20/09/2026
+    FECHA: 20-09-2026
     AUTOR: Iker
     DESCRIPCIÓN:
     Calcula la velocidad en m/s de un corredor de una carrera de 1500 m., conocido el tiempo que tarda en realizar la prueba.
@@ -17,10 +17,14 @@ int main()
     const float DISTANCIA=1500;
     int minutos,segundos;
     float velocidad;
+    cout << "Introduce los minutos: ";
     cin >> minutos;
+    cout << "Introduce los segundos: ";
     cin >> segundos;
-    velocidad = DISTANCIA /(60 * minutos + segundos);
-    cout << velocidad;
+
+    velocidad = DISTANCIA / (60 * minutos + segundos);
+
+    cout << "Velocidad: " << velocidad << " m/s" << endl;
     return 0;
 }
 

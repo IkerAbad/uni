@@ -1,5 +1,5 @@
 /*
-    FECHA: 18/09/2026
+    FECHA: 18-09-2026
     AUTOR: Iker
     DESCRIPCIÓN:
         Determinar el valor de las funciones trigonométricas (seno, coseno y tangente) de un valor cualquiera

@@ -1,6 +1,6 @@
 /*
-    FECHA:
-    AUTOR:
+    FECHA: 20-09-2026
+    AUTOR: Iker
     DESCRIPCIÓN:
         Calcula el área de un cilindro, conocidos su radio y altura.
     ENTRADAS: radio y altura. Deben ser positivos.

@@ -1,5 +1,5 @@
 /*
-    FECHA: 19/09/2026
+    FECHA: 19-09-2026
     AUTOR: Iker
     DESCRIPCIÓN:
         Dadas dos enteros n y m (n>m) escribir un algoritmo que permita calcular el resto y el cociente de la división entera
