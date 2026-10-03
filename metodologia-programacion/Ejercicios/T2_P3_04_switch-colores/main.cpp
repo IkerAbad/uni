@@ -20,35 +20,36 @@ int main()
     char color;
 
     // Entrada de datos
-    cout << endl << "Introduce una sola letra: " << endl;
-    cout << "color = ? ";
+    cout << "Introduce una sola letra: " << endl;
+    cout << "color = ";
     cin >> color;
 
     switch (color)
     {
-    case 'r':
-    case "R":
-    {
-        cout << endl << "Rojo";
-    }
+        case 'r':
+        case 'R':
+        {
+            cout << "Rojo";
+            break;
+        }
+        case 'v':
+        case 'V':
+        {
+            cout << "Verde";
+            break;
+        }
+        case 'a':
+        case 'A':
+        {
+            cout << "Azul";
+            break;
+        }
+        default:
+        {
+            cout << "Negro";
+            break;
 
-    case v:
-    case 'V':
-    {
-        cout << endl << "Verde";
-    }
-    break;
-    case 'a':
-    case 'A':
-    {
-        cout << endl << "Azul";
-    }
-    break;
-    default:
-    {
-        cout << endl << "Negro";
-
+        }
     }
     return 0;
-    }
 }
