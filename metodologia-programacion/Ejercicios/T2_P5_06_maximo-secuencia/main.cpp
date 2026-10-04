@@ -2,12 +2,13 @@
     FECHA:     04-10-2026
     AUTOR:     Iker
     DESCRIPCIÓN:
-        Dado un número entero, determina cuántos dígitos tiene.
-        (Practica 4, apartado 3.7, programa 4)
-    ENTRADAS:  un entero n (int)
-    SALIDAS:   el número de dígitos (int)
+        Calcula el máximo de una secuencia de enteros no negativos acabada en -1.
+        (Si no se introduce ningún dato salvo la marca, el máximo es 0.)
+        (Practica 5, apartado 2.3, programa 2)
+    ENTRADAS:  una secuencia de enteros >= 0 terminada en -1
+    SALIDAS:   el máximo (int)
     ERRORES:
-        Es incorrecto si n = 0 o negativo (decide el criterio y escríbelo).
+        Solo se admiten valores no negativos (más la marca final).
 */
 #include <iostream>
 

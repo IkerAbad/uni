@@ -2,12 +2,12 @@
     FECHA:     04-10-2026
     AUTOR:     Iker
     DESCRIPCIÓN:
-        Dado un número entero, determina cuántos dígitos tiene.
-        (Practica 4, apartado 3.7, programa 4)
-    ENTRADAS:  un entero n (int)
-    SALIDAS:   el número de dígitos (int)
+        Dada una entrada de caracteres terminada en punto (solo letras y espacios), calcula cuántas
+        palabras contienen al menos una letra mayúscula. (Practica 5, apartado 2.3, programa 3B)
+    ENTRADAS:  una secuencia de letras y espacios terminada en '.'
+    SALIDAS:   el número de palabras con al menos una mayúscula (int)
     ERRORES:
-        Es incorrecto si n = 0 o negativo (decide el criterio y escríbelo).
+        —
 */
 #include <iostream>
 
