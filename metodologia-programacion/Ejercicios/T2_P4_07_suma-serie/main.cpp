@@ -1,5 +1,5 @@
 /*
-    FECHA:     02-10-2026
+    FECHA:     04-10-2026
     AUTOR:     Iker
     DESCRIPCIÓN:
         Calcula la suma de la serie  1/2 + 2/2^2 + 3/2^3 + ... + n/2^n.
@@ -13,3 +13,20 @@
 
 using namespace std;
 
+int main()
+{
+    // ---- DECLARACIONES ----
+    // const tipo CTE = valor;
+    // tipo entradas...;
+    // tipo salida;
+
+    // ---- ENTRADA ----
+    // cout << "pregunta: ";   cin >> ...;
+
+    // ---- PROCESO ----
+
+    // ---- SALIDA ----
+    // cout << "resultado: " << salida << endl;
+
+    return 0;
+}

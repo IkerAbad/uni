@@ -1,15 +1,32 @@
 /*
-    FECHA:     02-10-2026
+    FECHA:     04-10-2026
     AUTOR:     Iker
     DESCRIPCIÓN:
-        Dado un numero entero, determina cuantos digitos tiene.
+        Dado un número entero, determina cuántos dígitos tiene.
         (Practica 4, apartado 3.7, programa 4)
-    ENTRADAS:  un entero (int)
-    SALIDAS:   el numero de digitos (int)
+    ENTRADAS:  un entero n (int)
+    SALIDAS:   el número de dígitos (int)
     ERRORES:
-        Es incorrecto si el numero es 0 (no se define) o negativo (decide tu criterio y escribelo).
+        Es incorrecto si n = 0 o negativo (decide el criterio y escríbelo).
 */
 #include <iostream>
 
 using namespace std;
 
+int main()
+{
+    // ---- DECLARACIONES ----
+    // const tipo CTE = valor;
+    // tipo entradas...;
+    // tipo salida;
+
+    // ---- ENTRADA ----
+    // cout << "pregunta: ";   cin >> ...;
+
+    // ---- PROCESO ----
+
+    // ---- SALIDA ----
+    // cout << "resultado: " << salida << endl;
+
+    return 0;
+}
