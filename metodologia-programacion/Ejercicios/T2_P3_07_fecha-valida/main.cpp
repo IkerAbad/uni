@@ -1,3 +1,17 @@
+/* ===== ENUNCIADO (literal del PDF) ===== */
+//                                                                                                                                                                                             Estructura alternativa en C++
+// 4.3 Realizaci�n de programas
+//    1. Escribe un programa que determine el precio de las entradas para los partidos de la pista central
+//        de un torneo de tenis ("Tarifa 1", "Tarifa 2" o "Tarifa 3"), seg�n la zona ocupada (puede ser 1, 2,
+//        3 o 4) y teniendo en cuenta si el aficionado est� federado ('F') o no federado (`N'), de la siguiente
+//        manera (tanto la zona como el tipo de aficionado son datos de entrada):
+//               � Tarifa 1: zona 3 o 4
+//               � Tarifa 2: zona 1 o 2 y No Federado (`N')
+//               � Tarifa 3: zona 1 o 2 y Federado (`F')
+//    2. Escribe un programa que pida una fecha (d�a, mes y a�o) y diga si es correcta (supondremos que
+//        son fechas del siglo XXI).
+/* ======================================= */
+
 /*
     FECHA:     03-10-2026
     AUTOR:     Iker

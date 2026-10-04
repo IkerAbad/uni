@@ -1,3 +1,79 @@
+/* ===== ENUNCIADO (literal del PDF) ===== */
+//                                                     Metodolog�a de la Programaci�n. Pr�ctica 2.
+//                                                                                     Estructura de un programa en C++
+// Edita el programa, gr�balo, comp�lalo y ejec�talo.
+// 3.2 Corrige programas con errores
+// Con este ejercicio repasar�s:
+// � C�mo traducir a C++ un programa escrito en seudoc�digo.
+// � C�mo recuperar, grabar, compilar y ejecutar un programa.
+// � C�mo utilizar el compilador para corregir errores en los programas.
+// Estos programas contienen errores. El objetivo del ejercicio es que los encuentres y los corrijas. Es
+// aconsejable que intentes detectarlos por simple inspecci�n. Si no lo consigues puedes utilizar el
+// compilador de CodeBlocks. Encontrar�s unos cuantos errores bastante comunes. Ser�a aconsejable
+// que los recordases para no cometerlos en el futuro. Hay errores l�xicos, sint�cticos e incluso puede
+// que falten o sobren cosas.
+// 3.2.1 Primer programa
+// (Puedes descargarlo del aula virtual, P2Ej3)
+// /*
+//    FECHA:
+//    AUTOR:
+//    DESCRIPCI�N:
+//       Calcula la velocidad en m/s de un corredor de una carrera de 1500 m.,
+//       conocido el tiempo que tarda en realizar la prueba.
+//    ENTRADAS: minutos, cantidad de minutos invertidos por el corredor
+//                     segundos, cantidad de segundos invertidos por el corredor
+//    SALIDAS: velocidad, ser velocidad = 1500/(60*minutos+segundos)
+//    ERRORES:
+//       El programa es incorrecto si minutos y segundos no son positivos
+// */
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//    const int DISTANCIA=1500
+//    cin >> minutos;
+//    cin >> segundos
+//    velocidad := 1500/(60*minutos+segundos);
+//    escribir(velocidad);
+//    return 0;
+// }
+//                                               Metodolog�a de la Programaci�n. Pr�ctica 2.
+//                                                                               Estructura de un programa en C++
+// 3.2.2 Segundo programa
+// (Puedes descargarlo del aula virtual, P2Ej4)
+// /*
+//    FECHA:
+//    AUTOR:
+//    DESCRIPCI�N:
+//       Convierte una distancia dada en pies a su equivalente en yardas,
+//       pulgadas, cent�metros y metros.
+//    ENTRADAS: pies, distancia medida en pies
+//    SALIDAS: yardas, pulgadas, cent�metros, metros = distancia medida en
+//                     esas unidades
+//    ERRORES:
+//       El programa es incorrecto si pies es negativo
+// */
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//    real pies;
+//    yardas, pulgadas, centimetros, metros: real;
+//    yardas = pies/3.0;
+//    pulgadas = = pies * 12.0;
+//    centimetros = 2'54 * pulgadas;
+//    metros = centimetros / 100;
+//    return 0;
+// }
+// 3.3 Realizaci�n de programas
+// 1. Programa que lea un n�mero entero de dos cifras y cree otro con esas cifras invertidas. Ejemplo,
+//      si introducimos 45 deber�a generar el 54.
+// 2. Programa que descodifique la fecha expresada como un entero de 6 d�gitos (DDMMAA), es decir,
+//      el a�o viene representado en las unidades y decenas, el mes en las centenas y millares y el d�a en
+//      las decenas y centenas de millar. Ejemplo: para una entrada como 121025 debe mostrar en
+//      pantalla 12-10-2025.
+/* ======================================= */
+
 /*
     FECHA: 20-09-2026
     AUTOR: Iker

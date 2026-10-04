@@ -1,0 +1,90 @@
+/* ===== ENUNCIADO (literal del PDF) ===== */
+// 3 Sesi�n de pr�cticas
+// 3.1 Primer programa
+// Con este ejercicio aprender�s a:
+// � Recuperar un programa previamente creado y guardado.
+// � Corregir los errores de compilaci�n de un programa
+// Tambi�n repasar�s como:
+// � Compilarlo
+// � Ejecutarlo.
+// El programa es el siguiente. Sigue las instrucciones que vienen despu�s del programa porque no tienes
+// que teclearlo.
+// /*
+//    FECHA:
+//    AUTOR: profesores de Inform�tica
+//    DESCRIPCI�N:
+//       Calcula el valor de un polinomio de tercer grado para un valor concreto de la inc�gnita
+//       x. Los coeficientes del polinomio son introducidos por teclado, as� como el valor de la
+//       inc�gnita. El resultado se presenta por pantalla.
+//    ENTRADAS: los coeficientes del polinomio (variables a,b,c,d)
+//                     el valor de la inc�gnita (variable x)
+//    SALIDAS: el resultado de la expresi�n ax3+bx2+cx+d (almacenado en la variable p)
+// */
+// #include <iostream>
+// using namespace std;
+// int main(          // variables para los coeficientes
+// {                  // variable para la inc�gnita
+//                    // variable para el resultado
+//    float a,b,c,d;
+//    float x;
+//    float p
+// /* Entrada de datos */
+// cout << "Introducir los valores de: " << endl;
+// cout << "a = ? ";
+// cin >> a;
+// cout << "b = ? ";
+// cin >> b;
+// cout << "c = ? ";
+// cin >> c;
+// cout << "d = ? ";
+// cin >> d;
+// cout << "x = ? ";
+// cin >> x;
+//    // Proceso
+//    p = a*x*x*x + b*x*x + c*x + d; //Ojo: por defecto, NO disponemos de una funci�n potencia
+//    // Salida
+//    cout << "La soluci�n es p = " << p;
+//    return 0;
+// }
+/* ======================================= */
+
+/*
+    FECHA:     18-09-2026
+    AUTOR:     Iker
+    DESCRIPCIÓN:
+        Calcula el valor de un polinomio de tercer grado para un valor concreto de x; los
+        coeficientes y la x se introducen por teclado.  (P1, apartado 3.1 -> P1EJ2)
+    ENTRADAS:  los coeficientes a, b, c, d y la incógnita x (float)
+    SALIDAS:   p = a·x³ + b·x² + c·x + d (float)
+    ERRORES:   No se comprueba nada: si a = 0 el polinomio no es de tercer grado.
+*/
+	#include <iostream>
+	using namespace std;
+
+	int main()
+	{
+	  float a,b,c,d;	// variables para los coeficientes
+	  float x;		// variable para la inc�gnita
+	  float p;	// variable para el resultado
+
+	  // Entrada de datos
+	  cout << "Introducir los valores de: " << endl;
+	  cout << "a = ? ";
+	  cin >> a;
+	  cout << "b = ? ";
+	  cin >> b;
+	  cout << "c = ? ";
+	  cin >> c;
+
+	  cout << "d = ? ";
+	  cin >> d;
+	  cout << "x = ? ";
+	  cin >> x;
+
+	  // Proceso
+	  p = x*(x*(a*x+b)+c)+d;
+
+	  // Salida
+	  cout << "La soluci�n es p = " << p;
+	  return 0;
+	}

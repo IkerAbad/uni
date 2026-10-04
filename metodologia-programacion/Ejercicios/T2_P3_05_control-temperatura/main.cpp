@@ -1,3 +1,59 @@
+/* ===== ENUNCIADO (literal del PDF) ===== */
+//                                                                           Estructura alternativa en C++
+//    switch (color)
+//    {
+//       case 'r':
+//       case "R":
+//       {
+//          cout << endl << "Rojo";
+//       }
+//       case v:
+//       case 'V':
+//       {
+//          cout << endl << "Verde";
+//       }
+//       break;
+//       case 'a':
+//       case 'A':
+//       {
+//          cout << endl << "Azul";
+//       }
+//       break;
+//       default:
+//       {
+//          cout << endl << "Negro";
+//       }
+//    return 0;
+// }
+// 4.2.4 Cuarto programa
+// Traduce el siguiente algoritmo a C++. Edita, guarda con el nombre P3EJ5, compila y ejecuta el programa.
+// Entrada: temperatura
+// Salida: se muestra un mensaje en funci�n de la temperatura
+// Algoritmo controlTemperatura
+// variables
+//    real temperatuta
+// principio
+//    leer(temperatura)
+//    si temperatura<=0 entonces
+//       escribir("Demasiado fr�o")
+//    si_no
+//       si temperatura<=10 entonces
+//          escribir("Fr�o")
+//       si_no
+//          si temperatura<=25 entonces
+//              escribir("Agradable")
+//          si_no
+//              si temperatura<=35 entonces
+//                 escribir("Calor")
+//              si_no
+//                 escribir("Demasiado calor")
+//              fsi
+//          fsi
+//       fsi
+//    fsi
+// fin
+/* ======================================= */
+
 /*
     FECHA:     03-10-2026
     AUTOR:     Iker
