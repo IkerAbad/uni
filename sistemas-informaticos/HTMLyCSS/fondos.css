@@ -27,6 +27,14 @@ section {
 footer {
   background-color: rgba(180, 205, 240, 0.75);
   border-start-end-radius: 80px 80px;
-  padding: 1.5%;
+  padding: 5px 10px;
   box-sizing: border-box;
+}
+
+footer address {
+  margin: 0;
+}
+
+footer p {
+  margin: 30px 0 0 0;
 }
