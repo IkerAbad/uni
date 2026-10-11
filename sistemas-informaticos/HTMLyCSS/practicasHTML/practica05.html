@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <table>
+  <table border="1">
     <caption>
       Periodo Lectivo: Curso 2025-26 Semestre 1<br>
       Titulación: Grado en Matemáticas
@@ -30,7 +30,10 @@
     </tr>
     <tr>
       <td>8:00<br>-<br>9:00</td>
-      <td>Hora para realización de posibles pruebas parciales</td>
+      <td>
+        Hora para<br>
+        realización de posibles<br>
+        pruebas parciales</td>
       <td></td>
       <td></td>
       <td></td>
@@ -102,77 +105,165 @@
       <td>12:00<br>-<br>13:00</td>
       <td></td>
       <td rowspan="2">
-        Cálculo infinitesimal<br>
+        Cálculo Infinitesimal<br>
         GRUPO: A1<br><br>
         GI: JL.ANSORENA<br>
         CCT-L130<br><br>
         GR: P.PASCUAL
       </td>
       <td></td>
-      <td>C5</td>
-      <td>C6</td>
+      <td rowspan="2">
+        Cálculo Matricial y vectorial<br>
+        GRUPO: A1<br><br>
+        GI: JA. DELGADO<br>
+        CCT-L131<br><br>
+        GR: JM.PÉREZ
+      </td>
+      <td></td>
     </tr>
     <tr>
       <td>13:00<br>-<br>14:00</td>
-      <td>C2</td>
-      <td>C3</td>
-      <td>C4</td>
-      <td>C5</td>
-      <td>C6</td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>14:00<br>-<br>15:00</td>
-      <td>C2</td>
-      <td>C3</td>
-      <td>C4</td>
-      <td>C5</td>
-      <td>C6</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>15:00<br>-<br>16:00</td>
-      <td>C2</td>
-      <td>C3</td>
-      <td>C4</td>
-      <td>C5</td>
-      <td>C6</td>
+      <td rowspan="2"><br>
+        Sistemas informáticos<br>
+        GRUPO: A1<br><br>
+        GI: A.INÉS<br>
+        CCT-L130<br><br>
+      </td>
+      <td></td>
+      <td rowspan="2"><br>
+        Sistemas informáticos<br>
+        GRUPO: A1<br><br>
+        GI: A.INÉS<br>
+        CCT-L130<br><br>
+      </td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>16:00<br>-<br>17:00</td>
-      <td>C2</td>
-      <td>C3</td>
-      <td>C4</td>
-      <td>C5</td>
-      <td>C6</td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>17:00<br>-<br>18:00</td>
-      <td>C2</td>
-      <td>C3</td>
-      <td>C4</td>
-      <td>C5</td>
-      <td>C6</td>
+      <td rowspan="2"><br>
+        Metodología de la programación<br>9
+        GRUPO: A1<br><br>
+        GI: JJ. OLARTE<br>
+        CCT-L130<br><br>
+      </td>
+      <td></td>
+      <td rowspan="2">
+        Matemática discreta<br>
+        GRUPO: A1<br><br>
+        GI: J. ROLDÁN<br>
+        CCT-L136<br><br>
+        GR: JL.VARONA
+      </td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>18:00<br>-<br>19:00</td>
-      <td>C2</td>
-      <td>C3</td>
-      <td>C4</td>
-      <td>C5</td>
-      <td>C6</td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>19:00<br>-<br>20:00</td>
-      <td>C2</td>
-      <td>C3</td>
-      <td>C4</td>
-      <td>C5</td>
-      <td>C6</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
   </table>
 
-  <p>
-    <img src="http://www.w3.org/html/logo/img/mark-word-icon.png" alt="Valid HTML 5" height="50" width="50">
+  <p align="center">
+    <img src="mark-word-icon.png" alt="Valid HTML 5" height="50" width="50">
   </p>
+  <h1>Formulario de Contacto</h1>
+  <form action="mailto:ikerfernandezanton@gmail.com" method="post">
+    <p>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" maxlength="50" placeholder="Tu nombre completo" required>
+    </p>
+    <p>
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" placeholder="ejemplo@dominio.com" required>
+    </p>
+    <p>
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="123-4567-8901"
+        required> <small>Formato: 123-4567-8901</small>
+    </p>
+    <p>
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" minlength="6" placeholder="Al menos 6 caracteres"
+        required>
+    </p>
+    <p>
+      <label for="contrasena2">Confirmar contraseña:</label>
+      <input type="password" id="contrasena2" name="contrasena2" required>
+    </p>
+    <p>
+      <label for="leido">He leído el guión de prácticas</label>
+      <input type="checkbox" id="leido" name="leido">
+    </p>
+    <p>
+      <label>Género:</label>
+      <input type="radio" id="masculino" name="genero" value="masculino" required>
+      <label for="masculino">Masculino</label>
+      <input type="radio" id="femenino" name="genero" value="femenino">
+      <label for="femenino">Femenino</label>
+      <input type="radio" id="otro" name="genero" value="otro">
+      <label for="otro">Otro</label>
+    </p>
+    <p>
+      <label for="pais">País:</label>
+      <select id="pais" name="pais">
+        <option value="">Selecciona tu país</option>
+        <option value="es">España</option>
+        <option value="fr">Francia</option>
+        <option value="it">Italia</option>
+        <option value="de">Alemania</option>
+      </select>
+    </p>
+    <p>
+      <label for="foto">Sube una foto:</label>
+      <input type="file" id="foto" name="foto">
+    </p>
+    <p>
+      <label for="nacimiento">Fecha de Nacimiento:</label>
+      <input type="date" id="nacimiento" name="nacimiento" required>
+    </p>
+    <p>
+      <label for="color">Color Favorito:</label>
+      <input type="color" id="color" name="color" value="#ff0000">
+    </p>
+    <p>
+      <label for="comentarios">Comentarios:</label>
+      <textarea id="comentarios" name="comentarios" rows="5" cols="40"
+        placeholder="Escribe tus comentarios aquí..."></textarea>
+    </p>
+    <button type="submit">Enviar</button>
+    <button type="reset">Restablecer</button>
+  </form>
 </body>
 
 </html>
