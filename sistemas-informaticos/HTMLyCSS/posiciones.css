@@ -1,0 +1,53 @@
+header {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  height: 13%;
+  width: 93%;
+}
+
+header h1 {
+  font-size: 1.7em;
+  margin: 0;
+  text-align: center;
+  line-height: 13vh;
+}
+
+nav {
+  position: absolute;
+  top: 16.5%;
+  left: 2%;
+  height: 70%;
+  width: 25%;
+}
+
+section {
+  position: absolute;
+  top: 16.5%;
+  left: 30%;
+  height: 70%;
+  width: 65%;
+  overflow: auto;
+  padding: 1.5%;
+  box-sizing: border-box;
+}
+
+footer {
+  position: absolute;
+  top: 88%;
+  left: 30%;
+  height: 10%;
+  width: 65%;
+}
+
+#imagen {
+  float: right;
+  width: 11%;
+  margin-left: 2%;
+  border: 2mm outset rgb(255 255 255 / 0.8);
+}
+
+#mi_foto {
+  width: 100%;
+  display: block;
+}
