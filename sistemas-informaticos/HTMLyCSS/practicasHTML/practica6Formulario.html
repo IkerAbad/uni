@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="keywords"
+    content="Sistemas Informáticos, Grado en Ingeniería Informática, Universidad de La Rioja, Iker Fernández Antón" />
+  <meta name="description"
+    content="En esta página se pueden encontrar enlaces a las prácticas de HTML y CSS realizadas por Iker Fernández Antón." />
+  <meta name="Author" content="Iker" />
+  <title>Práctica 6: formulario con CSS</title>
+  <link rel="stylesheet" type="text/css" href="practica6Formulario.css">
+</head>
+
+<body>
+  <h1>Formulario de Contacto</h1>
+
+  <form action="mailto:ikerfernandezanton@gmail.com" method="post">
+    <p>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" maxlength="50" placeholder="Tu nombre completo" required>
+    </p>
+    <p>
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" placeholder="ejemplo@dominio.com" required>
+    </p>
+    <p>
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+        placeholder="123-4567-8901" required> <small>Formato: 123-4567-8901</small>
+    </p>
+    <p>
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" minlength="6" placeholder="Al menos 6 caracteres"
+        required>
+    </p>
+    <p>
+      <label for="contrasena2">Confirmar contraseña:</label>
+      <input type="password" id="contrasena2" name="contrasena2" required>
+    </p>
+    <p>
+      <label for="leido">He leído el guión de prácticas:</label>
+      <input type="checkbox" id="leido" name="leido">
+    </p>
+    <p>
+      <label>Género:</label>
+      <label class="genero" for="masculino">Masculino</label>
+      <input type="radio" id="masculino" name="genero" value="masculino" required>
+      <label class="genero" for="femenino">Femenino</label>
+      <input type="radio" id="femenino" name="genero" value="femenino">
+      <label class="genero" for="otro">Otro</label>
+      <input type="radio" id="otro" name="genero" value="otro">
+    </p>
+    <p>
+      <label for="pais">País:</label>
+      <select id="pais" name="pais">
+        <option value="">Selecciona tu país</option>
+        <option value="es">España</option>
+        <option value="fr">Francia</option>
+        <option value="it">Italia</option>
+        <option value="de">Alemania</option>
+      </select>
+    </p>
+    <p>
+      <label for="foto">Sube una foto:</label>
+      <input type="file" id="foto" name="foto">
+    </p>
+    <p>
+      <label for="nacimiento">Fecha de Nacimiento:</label>
+      <input type="date" id="nacimiento" name="nacimiento" required>
+    </p>
+    <p>
+      <label for="color">Color Favorito:</label>
+      <input type="color" id="color" name="color" value="#ff0000">
+    </p>
+    <p>
+      <label for="comentarios">Comentarios:</label>
+      <textarea id="comentarios" name="comentarios" rows="5" cols="40"
+        placeholder="Escribe tus comentarios aquí..."></textarea>
+    </p>
+    <button type="submit">Enviar</button>
+    <button type="reset">Restablecer</button>
+  </form>
+</body>
+
+</html>
