@@ -1,0 +1,32 @@
+body {
+  background-image: url(fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section {
+  background-color: white;
+}
+
+nav {
+  background-color: rgba(180, 205, 240, 0.75);
+}
+
+header {
+  background: linear-gradient(to right, #9fc0f0, #ffffff);
+  border-bottom: 4mm ridge rgb(70 120 200 / 0.85);
+  box-sizing: border-box;
+}
+
+nav,
+section {
+  border-radius: 20px;
+}
+
+footer {
+  background-color: rgba(180, 205, 240, 0.75);
+  border-start-end-radius: 80px 80px;
+  padding: 1.5%;
+  box-sizing: border-box;
+}
