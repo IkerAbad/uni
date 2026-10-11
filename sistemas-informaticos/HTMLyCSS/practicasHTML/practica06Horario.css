@@ -1,0 +1,47 @@
+table {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-spacing: 0px;
+}
+
+td {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  padding: 10px;
+}
+
+tbody {
+  text-align: center;
+}
+
+body {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: Teal;
+}
+
+caption {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#titulo {
+  background-color: yellow;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.asignatura {
+  color: red;
+  font-weight: bold;
+}
+
+.grupo {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#dias {
+  width: 18%;
+}
