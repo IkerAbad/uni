@@ -1,0 +1,23 @@
+#parrafo1 .resaltado {
+  background-color: red;
+}
+
+#parrafo2 .resaltado, #parrafo3 .resaltado {
+  background-color: orange;
+}
+
+#parrafo1~h3 {
+  background-color: gray;
+}
+
+#texto h3, #texto p {
+  padding-left: 3%;
+}
+
+nav ul {
+  margin-left: 3%;
+}
+
+header {
+  position: relative;
+}
