@@ -1,3 +1,99 @@
+header { 
+  position: relative; /*práctica 08 ejercicio 7*/
+  top: 2%;
+  left: 2%;
+  height: 13%;
+  width: 93%;
+}
+
+header h1 {
+  font-size: 1.7em;
+  margin: 0;
+  text-align: center;
+  line-height: 13vh;
+}
+
+nav {
+  position: relative; /*práctica 08 ejercicio 8*/
+  top: 16.5%;         
+  /*left: 2%;           /*Ejercicio 13*/
+  /*height: 70%;        /*Ejercicio 13*/
+  width: 25%;         
+  background-color: rgba(180, 205, 240, 0.75);
+  position: sticky; /*Ejercicio 13*/
+  width: 30%; /*Ejercicio 13*/
+}
+
+section {
+  position: relative; /*práctica 08 ejercicio 8*/
+  /*top: 16.5%;       /*práctica 08 ejercicio 9*/
+  /*left: 30%;        /*práctica 08 ejercicio 9*/
+  height: 70%;
+  width: 65%;
+  overflow: auto;
+  padding: 1.5%;
+  box-sizing: border-box;
+}
+
+footer {
+  position: absolute;
+  top: 88%;
+  left: 30%;
+  height: 10%;
+  width: 65%;
+}
+
+#imagen {
+  float: right;
+  width: 11%;
+  margin-left: 2%;
+  border: 2mm outset rgb(255 255 255 / 0.8);
+}
+
+#mi_foto {
+  width: 100%;
+  display: block;
+}
+
+body {
+  background-image: url(fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section {
+  background-color: white;
+}
+
+header {
+  background: linear-gradient(to right, #9fc0f0, #ffffff);
+  border-bottom: 4mm ridge rgb(70 120 200 / 0.85);
+  box-sizing: border-box;
+}
+
+nav,
+section {
+  border-radius: 20px;
+}
+
+footer {
+  background-color: rgba(180, 205, 240, 0.75);
+  border-start-end-radius: 80px 80px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+footer address {
+  margin: 0;
+}
+
+footer p {
+  margin: 30px 0 0 0;
+}
+
+/*Práctica 08*/
+
 #parrafo1 .resaltado {
   background-color: red;
 }
@@ -18,6 +114,12 @@ nav ul {
   margin-left: 3%;
 }
 
-header {
+#cuerpo {
+  display: flex;
+  align-items: flex-start;
   position: relative;
+  top: 1em;
+  left: 2%;
+  width: 96%;
 }
+
