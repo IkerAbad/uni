@@ -1,32 +1,5 @@
-/* ===== ENUNCIADO (literal del PDF) ===== */
-//                                                                                                 Tratamiento secuencial en C++
-// 2 Sesi�n de pr�cticas
-// 2.1 Primer ejercicio
-// Con este ejercicio aprender�s c�mo:
-// � Trabajar con datos introducidos secuencialmente en C++.
-// 2.1.1 Primer programa
-// Traduce el siguiente algoritmo a C++ (P5EJ1)
-// Entrada secuencial de caracteres que acaba en `.'
-// Salida: n�mero de aes en la secuencia de entrada (num_a)
-// algoritmo contar_aes
-// variables
-//          car�cter c
-//          entero num_a
-// principio
-//    num_a =0
-//    leer(c)
-//    mientras que c'.' hacer
-//       si c ==`a' entonces
-//          num_a=num_a+1
-//       fsi
-//       leer(c)
-//    fmq
-//    escribir(num_a)
-// fin
-/* ======================================= */
-
 /*
-    FECHA:     04-10-2026
+    FECHA:     14-10-2026
     AUTOR:     Iker
     DESCRIPCIÓN:
         Cuenta cuántas letras 'a' hay en una entrada secuencial de caracteres que acaba en '.'.
@@ -60,18 +33,25 @@ using namespace std;
 
 int main()
 {
-    // ---- DECLARACIONES ----
-    // const tipo CTE = valor;
-    // tipo entradas...;
-    // tipo salida;
+   setlocale(LC_CTYPE, "Spanish");
+   
+    char c;
+    int num_a;
 
-    // ---- ENTRADA ----
-    // cout << "pregunta: ";   cin >> ...;
+   num_a = 0;
+   cout << "Introduce una serie de caracteres que acabe en '.': ";
+   cin >> c;
 
-    // ---- PROCESO ----
+    while (c!='.')
+    {
+      if (c=='a')
+      {
+         num_a = num_a +1;
+      }
+      cin >> c;
+    }
 
-    // ---- SALIDA ----
-    // cout << "resultado: " << salida << endl;
-
+    cout << "Número de veces que aparace la letra 'a': " << num_a;
+   
     return 0;
 }
