@@ -16,7 +16,16 @@ using namespace std;
 
 int main()
 {
-    
+    int num, max;
+    max = 0;
+    num = 0;
+    while (num > 0)
+    {
+        if (num > max)
+        {
+            max = num;
+        }
+    }
 
     return 0;
 }
