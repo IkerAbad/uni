@@ -1,5 +1,5 @@
 header { 
-  position: relative; /*práctica 08 ejercicio 7*/
+  position: relative; /*Ejercicio 7*/
   top: 2%;
   left: 2%;
   height: 13%;
@@ -14,33 +14,30 @@ header h1 {
 }
 
 nav {
-  position: relative; /*práctica 08 ejercicio 8*/
-  top: 16.5%;         
-  /*left: 2%;           /*Ejercicio 13*/
-  /*height: 70%;        /*Ejercicio 13*/
-  width: 25%;         
-  background-color: rgba(180, 205, 240, 0.75);
   position: sticky; /*Ejercicio 13*/
+  top: 5%; /*Ejercicio 13*/
   width: 30%; /*Ejercicio 13*/
+  background-color: rgba(180, 205, 240, 0.75);
+  /* left: 2%; */ /*Ejercicio 13*/
+  /* height: 70%; */ /*Ejercicio 13*/
 }
 
 section {
-  position: relative; /*práctica 08 ejercicio 8*/
-  /*top: 16.5%;       /*práctica 08 ejercicio 9*/
-  /*left: 30%;        /*práctica 08 ejercicio 9*/
-  height: 70%;
-  width: 65%;
+  position: relative; /*Ejercicio 8*/
+  width: 70%; /*Ejercicio 14*/
   overflow: auto;
   padding: 1.5%;
   box-sizing: border-box;
+  /* top: 16.5%; */ /*Ejercicio 9*/
+  /* left: 30%; */ /*Ejercicio 9*/
+  /* height: 70%; */ /*Ejercicio 14*/
 }
 
 footer {
-  position: absolute;
-  top: 88%;
-  left: 30%;
-  height: 10%;
-  width: 65%;
+  position: relative; /*Ejercicio 17*/
+  top: 2em; /*Ejercicio 17*/
+  left: 33%; /*Ejercicio 17*/
+  width: 65%; /*Ejercicio 17*/
 }
 
 #imagen {
@@ -56,10 +53,11 @@ footer {
 }
 
 body {
-  background-image: url(fondo.jpg);
+  background-image: url(../fondo.jpg); /*Ejercicio 1*/
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  padding-bottom: 2em; /*Ejercicio 17*/
 }
 
 section {
@@ -95,31 +93,31 @@ footer p {
 /*Práctica 08*/
 
 #parrafo1 .resaltado {
-  background-color: red;
+  color: red; /*Ejercicio 2*/
 }
 
 #parrafo2 .resaltado, #parrafo3 .resaltado {
-  background-color: orange;
+  color: orange; /*Ejercicio 3*/
 }
 
-#parrafo1~h3 {
-  background-color: gray;
+#parrafo1 ~ h3 {
+  color: grey; /*Ejercicio 4*/
 }
 
 #texto h3, #texto p {
-  padding-left: 3%;
+  padding-left: 3%; /*Ejercicio 5*/
 }
 
 nav ul {
-  margin-left: 3%;
+  margin-left: 3%; /*Ejercicio 6*/
 }
 
-#cuerpo {
-  display: flex;
-  align-items: flex-start;
-  position: relative;
-  top: 1em;
-  left: 2%;
-  width: 96%;
+#cuerpo { /*Ejercicio 10*/
+  display: flex; /*Ejercicio 11*/
+  align-items: flex-start; /*Ejercicio 11*/
+  position: relative; /*Ejercicio 12*/
+  top: 1em; /*Ejercicio 12*/
+  left: 2%; /*Ejercicio 12*/
+  width: 96%; /*Ejercicio 12*/
+  gap: 3%; /*Ejercicio 15*/
 }
-

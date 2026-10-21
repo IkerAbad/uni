@@ -1,0 +1,27 @@
+/* Menú de navegación - Práctica 08 */
+
+nav ul {
+  list-style-type: none; /*Ejercicio 18*/
+  background-color: #4a7abf; /*Ejercicio 18*/
+  border: 2px solid #2f5a96; /*Ejercicio 18*/
+  border-radius: 10px; /*Ejercicio 18*/
+  overflow: hidden; /*Ejercicio 18*/
+  margin: 0; /*Ejercicio 20*/
+  padding: 0; /*Ejercicio 20*/
+}
+
+nav ul li a {
+  display: block; /*Ejercicio 19*/
+  color: white; /*Ejercicio 19*/
+  text-align: center; /*Ejercicio 19*/
+  text-decoration: none; /*Ejercicio 19*/
+  padding: 14px 16px; /*Ejercicio 19*/
+}
+
+nav ul li a:not(.active):hover {
+  background-color: #111; /*Ejercicio 23*/
+}
+
+nav ul li a.active {
+  background-color: #2f5a96; /*Ejercicio 22*/
+}
