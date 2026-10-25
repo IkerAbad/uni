@@ -1,0 +1,98 @@
+/* Práctica 9 - Diseño responsive y multimedia */
+
+* {
+  margin: 0; /*Ejercicio 4*/
+  padding: 0; /*Ejercicio 4*/
+  box-sizing: border-box; /*Ejercicio 4*/
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #eef3fb;
+  color: #1f2a3a;
+  display: flex; /*Ejercicio 4*/
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.galeria-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center; /*Ejercicio 8*/
+  margin-bottom: 40px; /*Ejercicio 8*/
+  font-size: 2.5rem; /*Ejercicio 8*/
+  color: #1f2a3a; /*Ejercicio 8*/
+}
+
+.galeria {
+  display: grid; /*Ejercicio 5*/
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*Ejercicio 5*/
+  gap: 20px; /*Ejercicio 5*/
+}
+
+.galeria-item {
+  position: relative; /*Ejercicio 6*/
+  overflow: hidden; /*Ejercicio 6*/
+  aspect-ratio: 4 / 3;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+}
+
+.galeria-item img, /*Ejercicio 7*/
+.galeria-item video,
+.galeria-item iframe {
+  width: 100%; /*Ejercicio 7*/
+  height: 100%; /*Ejercicio 7*/
+  display: block; /*Ejercicio 7*/
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform 0.4s ease, filter 0.4s ease; /*Ejercicio 15*/
+}
+
+.galeria-item img:hover,
+.galeria-item video:hover,
+.galeria-item iframe:hover {
+  transform: scale(1.1); /*Ejercicio 14*/
+  filter: brightness(0.75); /*Ejercicio 14*/
+}
+
+.galeria-item::after {
+  content: attr(data-caption); /*Ejercicio 18*/
+  position: absolute; /*Ejercicio 18*/
+  bottom: 0; /*Ejercicio 18*/
+  right: 0; /*Ejercicio 18*/
+  left: 0; /*Ejercicio 18*/
+  padding: 10px; /*Ejercicio 18*/
+  background-color: rgb(255 255 255 / 0.85); /*Ejercicio 18*/
+  color: #1f2a3a; /*Ejercicio 18*/
+  text-align: center; /*Ejercicio 18*/
+  font-size: 1rem; /*Ejercicio 18*/
+  opacity: 0; /*Ejercicio 19*/
+  transform: translateY(20px); /*Ejercicio 20*/
+  transition: transform 0.3s ease, opacity 0.3s ease; /*Ejercicio 20*/
+}
+
+.galeria-item:hover::after {
+  opacity: 1; /*Ejercicio 19*/
+  transform: translateY(0); /*Ejercicio 20*/
+}
+
+@media (max-width: 600px) { /*Ejercicio 9*/
+  h1 {
+    font-size: 1.8rem; /*Ejercicio 9*/
+    margin-bottom: 20px; /*Ejercicio 9*/
+    color: #b03a2e; /*Ejercicio 9*/
+  }
+}
+
+footer {
+  margin-top: auto;
+  padding: 1rem;
+  background-color: #dbe6f6;
+}
