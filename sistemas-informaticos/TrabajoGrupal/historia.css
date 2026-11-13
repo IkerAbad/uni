@@ -43,8 +43,3 @@
     background-color: #f7f3ec;
 }
 
-/* Un poco más de aire al final de cada apartado */
-
-#cuerpo section p:last-child {
-    margin-bottom: 28px;
-}
