@@ -1,12 +1,5 @@
 @charset "utf-8";
 
-/* ============================================================
-   responsive.css
-   Segunda hoja de estilo, aplicada a todas las páginas.
-   Solo entra en juego en pantallas estrechas, como la de un
-   teléfono, y ajusta el tamaño del texto y del menú.
-   ============================================================ */
-
 @media (max-width: 600px) {
 
     header {
