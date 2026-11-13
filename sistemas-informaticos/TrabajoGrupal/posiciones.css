@@ -16,7 +16,6 @@ body {
     color: #23303f;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 1.6;
 }
 
 /* ---------- Cabecera ---------- */
@@ -124,18 +123,17 @@ h3 {
 
 p {
     margin: 0 0 12px 0;
-    text-align: justify;
 }
 
 /* ---------- Enlaces ---------- */
 
-a {
+section a {
     color: #b35d0f;
     text-decoration: none;
     border-bottom: 1px dotted #e07a1f;
 }
 
-a:hover {
+section a:hover {
     color: #1f2d3d;
     border-bottom: 1px solid #1f2d3d;
 }
@@ -151,14 +149,25 @@ li {
     margin-bottom: 6px;
 }
 
-/* La lista del índice interno va sin viñeta y con fondo suave */
+/* La lista del índice interno lleva fondo suave y una barra a la
+   izquierda, dibujada con un elemento colocado en absoluto */
 
 .indice {
+    position: relative;
     margin-bottom: 26px;
     padding: 12px 12px 12px 30px;
     background-color: #f4f7fa;
-    border-left: 4px solid #2b3d52;
     list-style-type: square;
+}
+
+.indice::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #2b3d52;
 }
 
 /* ---------- Pie de página ---------- */
@@ -178,12 +187,10 @@ footer address {
 
 footer a {
     color: #f0b375;
-    border-bottom: 1px dotted #f0b375;
 }
 
 footer a:hover {
     color: #ffffff;
-    border-bottom: 1px solid #ffffff;
 }
 
 /* Los dos iconos de validación, con el tamaño puesto desde aquí

@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* ============================================================
+   responsive.css
+   Segunda hoja de estilo, aplicada a todas las páginas.
+   Solo entra en juego en pantallas estrechas, como la de un
+   teléfono, y ajusta el tamaño del texto y del menú.
+   ============================================================ */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 20px 12px 16px 12px;
+    }
+
+    header h1 {
+        font-size: 1.4em;
+    }
+
+    header p {
+        font-size: 0.95em;
+    }
+
+    #cuerpo {
+        padding: 0 12px 24px 12px;
+    }
+
+    nav {
+        margin: 0 -12px 16px -12px;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav a {
+        padding: 10px 12px;
+    }
+
+    h2 {
+        margin: 24px 0 10px 0;
+        font-size: 1.25em;
+    }
+
+    h3 {
+        font-size: 1.05em;
+    }
+
+    .indice {
+        padding: 10px 10px 10px 26px;
+    }
+
+    footer {
+        padding: 16px 12px;
+    }
+}
