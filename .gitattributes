@@ -1,0 +1,12 @@
+# Fin de linea LF para el trabajo de HTML y CSS.
+# El sitio se publica en Laika, que es Linux, y ademas los tres
+# miembros tienen que entregar los HTML identicos byte a byte.
+
+sistemas-informaticos/TrabajoGrupal/*.html text eol=lf
+sistemas-informaticos/TrabajoGrupal/css/*.css text eol=lf
+
+# las imágenes y el vídeo no se tocan
+*.svg binary
+*.png binary
+*.jpg binary
+*.mp4 binary
