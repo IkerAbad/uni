@@ -10,8 +10,8 @@
         content="Qué es la memoria flash, cómo funcionan los pendrives USB y las tarjetas SD, para qué se usan y qué capacidades hay hoy en día." />
     <meta name="Author" content="Iker Abad, Urko, Gonzalo" />
     <title>Memorias flash</title>
-    <link rel="stylesheet" type="text/css" href="posiciones.css" />
-    <link rel="stylesheet" type="text/css" href="responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/posiciones.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
 </head>
 <body>
     <header>
@@ -21,7 +21,7 @@
 
     <div id="cuerpo">
 
-        <!-- Menú de navegación -->
+        <!-- menú -->
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -35,16 +35,17 @@
             </ul>
         </nav>
 
-        <!-- Contenido de la página -->
+        <!-- contenido -->
         <section>
-            <!-- Índice de la propia página -->
-            <h3>Índice</h3>
+            <!-- índice -->
+            <h2>Índice</h2>
             <ul class="indice">
                 <li><a href="#que-son">Qué es la memoria flash</a></li>
                 <li><a href="#pendrives">Pendrives USB</a></li>
                 <li><a href="#tarjetas">Tarjetas SD y microSD</a></li>
                 <li><a href="#usos">Usos habituales</a></li>
                 <li><a href="#capacidades">Capacidades actuales</a></li>
+                <li><a href="#capacidad-real">La capacidad que anuncia el fabricante</a></li>
             </ul>
 
             <h2 id="que-son">Qué es la memoria flash</h2>
@@ -58,11 +59,12 @@
             <p>Por eso un pendrive y un SSD se parecen tanto por dentro.</p>
 
             <h2 id="pendrives">Pendrives USB</h2>
+            <img src="imagenes/pendrive.jpg" alt="Pendrive USB" class="Imagen-pendrive">
             <p>Un pendrive es una memoria flash metida en una carcasa con conector USB. Dentro
                 lleva el chip de memoria y un controlador que hace que el ordenador lo vea como una
                 unidad más, sin instalar nada.</p>
-            <p>Apareció en 2000 y sustituyó al disquete en pocos años: guardaba cientos de veces
-                más, era más rápido y no necesitaba lector. Los hay de USB 2.0, USB 3.0 y
+            <p>Sustituyó al disquete en pocos años: guardaba cientos de veces más, era más rápido y no
+                necesitaba lector. Los hay de USB 2.0, USB 3.0 y
                 posteriores, y se distinguen sobre todo en la velocidad de transferencia.</p>
 
             <h2 id="tarjetas">Tarjetas SD y microSD</h2>
@@ -89,11 +91,20 @@
             <p>Su punto débil son las escrituras: cada celda aguanta un número limitado de ciclos.
                 Sirven para transportar datos, no para dejar una copia de seguridad olvidada durante
                 años.</p>
+
+            <h2 id="capacidad-real">La capacidad que anuncia el fabricante</h2>
+            <p>Compras un pendrive de 16 GB, lo conectas y el ordenador dice que tiene 14,9. No
+                falta nada. Los fabricantes cuentan en base 10, donde un gigabyte son mil millones
+                de bytes, y el sistema operativo cuenta en base 2, donde hacen falta 1.073.741.824.
+                Es la misma memoria, medida de dos maneras.</p>
+            <p>A eso se suma lo que ocupa el propio sistema de ficheros. En un pendrive pequeño
+                apenas se nota, pero en un disco de 1 TB la diferencia se acerca a los 70
+                gigabytes.</p>
         </section>
 
     </div>
 
-    <!-- Pie de página -->
+    <!-- pie -->
     <footer>
     <address>
         Trabajo realizado por Iker, Urko y Gonzalo.<br>
@@ -103,9 +114,9 @@
         <a href="mailto:correo_gonzalo@unirioja.es">Gonzalo</a>
     </address>
     <p>
-        <a href="https://validator.w3.org/check?uri=referer"><img src="W3C_HTML5_certified.png"
+        <a href="https://validator.w3.org/check?uri=referer"><img src="imagenes/W3C_HTML5_certified.png"
             alt="Validación HTML5"></a>
-        <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="css.svg"
+        <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="imagenes/css.svg"
             alt="Validación CSS3"></a>
     </p>
     </footer>

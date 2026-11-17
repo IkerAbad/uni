@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="SSD, Unidades de Estado Sólido, NAND Flash, Almacenamiento"> 
+    <meta name="description" content="En esta página se puede encontrar información sobre 
+	las unidades de estado sólido (SSD)">
+    <meta name="Author" content="Iker Abad, Urko, Gonzalo"> 
+    <title>Unidades de Estado Sólido (SSD)</title>
+    <link rel="stylesheet" type="text/css" href="css/posiciones.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <h1>Unidades de Estado Sólido (SSD)</h1>
+    </header>
+
+    <div id="cuerpo">
+        
+        <!-- Menú de navegación con listado de enlaces-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="hdd.html">Discos Duros (HDD)</a></li>
+                <li><a href="ssd.html" class="activo">Unidades SSD</a></li>
+                <li><a href="flash.html">Memorias Flash</a></li>
+                <li><a href="comparativa.html">Comparativa</a></li>
+                <li><a href="uso.html">Consejos de uso</a></li>
+                <li><a href="futuro.html">Futuro</a></li>
+            </ul>
+        </nav>
+
+        <section>
+			<!--  índice de la propia pag -->
+            <h2>Índice</h2>
+            <ul>
+                <li><a href="#que-son">¿Qué son?</a></li>
+                <li><a href="#tecnologia">Tecnología NAND Flash</a></li>
+                <li><a href="#funcionamiento">Funcionamiento</a></li>
+				<li><a href="#tipos">Tipos de unidades de estado sólido</a></li>
+                <li><a href="#ventajas-desventajas">Ventajas y Desventajas</a></li>
+            </ul>
+			
+            <h2 id="que-son">Qué son las Unidades de Estado Sólido (SSD)</h2>
+			
+				<p>Las Unidades de Estado Sólido, conocidas por sus siglas en inglés como SSD
+				(Solid State Drive), son dispositivos de almacenamiento de datos de nueva generación
+				que han sustituido progresivamente a los discos duros mecánicos (HDD) tradicionales.</p>
+				
+				<p>A diferencia de los HDD, que guardan la información en platos magnéticos giratorios,
+				un SSD utiliza una matriz de chips de memoria de estado sólido. Esto significa que
+				carecen por completo de partes móviles o mecánicas. Toda la información se guarda mediante
+				impulsos eléctricos, lo que los convierte en dispositivos extremadamente rápidos, silenciosos
+				y resistentes a impactos o vibraciones accidentales.</p>
+
+            <h2 id="tecnologia">Tecnología NAND Flash</h2>
+				<p>La tecnología base que permite a los SSD guardar información incluso cuando el ordenador
+				está apagado es la memoria no volátil <span class="resaltado">NAND Flash</span>.</p>
+				<p>A nivel microscópico, un SSD está compuesto por miles de millones de celdas de memoria, 
+				que actúan como pequeños interruptores (transistores de puerta flotante) capaces de atrapar 
+				electrones y mantener un estado binario (ceros y unos).</p>
+					
+				<h3>Densidad de las celdas de memoria</h3>
+					<p>La capacidad, durabilidad y precio de un SSD dependen directamente de la cantidad de
+					bits de información que el fabricante logre introducir en cada celda física. Existen cuatro
+					clasificaciones principales:</p>
+					<ul>
+						<li><span class="resaltado">SLC (Single-Level Cell):</span> Almacena 1 bit por celda.
+						Es la tecnología más rápida y con mayor vida útil, pero su altísimo coste la reserva
+						casi exclusivamente para servidores empresariales.</li>
+						<li><span class="resaltado">MLC (Multi-Level Cell):</span> Almacena 2 bits por celda.
+						Ofrece un buen equilibrio entre rendimiento y durabilidad.</li>
+						<li><span class="resaltado">TLC (Triple-Level Cell):</span> Almacena 3 bits por celda.
+						Es el estándar actual para la gran mayoría de ordenadores personales, reduciendo el 
+						precio del dispositivo.</li>
+						<li><span class="resaltado">QLC (Quad-Level Cell):</span> Almacena 4 bits por celda.
+						Son los SSD más baratos y de mayor capacidad del mercado actual, a cambio de ofrecer 
+						velocidades ligeramente menores y un ciclo de vida útil más corto.</li>
+					</ul>
+
+				<h3>Evolución: Memoria 3D NAND</h3>
+					<p>Inicialmente, las celdas se disponían unas al lado de las otras de forma plana (2D).
+					Para superar los límites de espacio físico en los chips y aumentar la capacidad de almacenamiento,
+					la industria creó la tecnología <span class="resaltado">3D NAND (o V-NAND)</span>. Esta técnica consiste
+					en apilar verticalmente las capas de celdas de memoria, formando estructuras tridimensionales.
+					Gracias a esto, hoy en día disponemos de SSD con varios Terabytes (TB) en formatos del tamaño
+					de un paquete de chicles (M.2).</p>
+
+            <h2 id="funcionamiento">Funcionamiento de un SSD</h2>
+				<p>Dado que no hay platos girando ni agujas buscando datos, el funcionamiento
+				de un SSD se basa íntegramente en la gestión electrónica y el procesamiento paralelo.</p>
+
+				<h3>La Controladora</h3>
+					<p>El componente más importante de un SSD, además de los propios chips de memoria, es
+					<span class="resaltado">la controladora</span>. Es un pequeño pero potente procesador
+					integrado que actúa como el "cerebro" de la unidad. Su trabajo consiste en comunicarse
+					con la placa base del ordenador y decidir exactamente en qué celdas de memoria se deben
+					leer o escribir los datos entrantes.</p>
+
+				<h3>El proceso de Lectura y Escritura</h3>
+					<ul>
+						<li><span class ="resaltado">Lectura:</span> Cuando el sistema operativo solicita
+						abrir un archivo, la controladora localiza instantáneamente las direcciones de memoria
+						exactas y envía las señales eléctricas para extraer los datos. Al no existir tiempos
+						de búsqueda mecánica (latencia física), la información se carga de forma casi instantánea.</li>
+						<li><span class= "resaltado">Escritura y Borrado:</span> La memoria NAND tiene una 
+						peculiaridad: no puede sobreescribir datos directamente sobre una celda que ya contiene 
+						información. Para actualizar un archivo, la controladora debe primero leer un bloque
+						entero de celdas, borrarlo por completo y volver a escribir los datos con las modificaciones.
+						Este proceso, conocido como el ciclo de "borrado-escritura", es lo que genera el desgaste
+						progresivo de la unidad.</li>
+					</ul>
+
+				<h3>Comando TRIM</h3>
+					<p>Para mitigar el desgaste y evitar la lentitud que generaba el proceso de escritura y borrado,
+					los SSD modernos utilizan el comando <span class="resaltado">TRIM</span>. Este comando, enviado por el sistema 
+					operativo, indica a la controladora del SSD qué bloques de datos ya no están en uso y pueden ser 
+					borrados en segundo plano. Así, cuando el usuario necesite guardar un archivo nuevo, el SSD
+					encontrará bloques completamente vacíos y listos para escribir de inmediato, manteniendo la
+					máxima velocidad a lo largo del tiempo.</p>
+							
+			<h2 id="tipos"> Tipos de unidades de estado sólido</h2>
+			
+			<p> Existen dos tipos principales de unidades SSD:</p> 
+			<ul>
+			
+				<li><span class="resaltado">mSATA III, SATA III y SSD tradicionales:</span> aunque las unidades SSD SATA son probablemente las más comunes, 
+				se trata más bien de una tecnología heredada, ya que se diseñaron con la intención de instalarse en lugar 
+				de una unidad de disco duro. Dicho esto, es posible que necesite un adaptador de bahía o una carcasa en 
+				función de su dispositivo, como un PC de sobremesa. Aunque la facilidad de instalación facilitó la adopción
+				de las SSD, esta interfaz está en proceso de desaparición progresiva con la introducción de las SSD PCIe y NVMe. 
+				En comparación, las unidades SSD mSATA III, SATA III y tradicionales están limitadas en sus tiempos de velocidad, 
+				ya que tienen un rendimiento inferior en comparación con las versiones más recientes de unidades SSD del mercado.</li>
+				
+				<li><span class="resaltado">SSD PCIe y NVMe:</span> los factores de forma más recientes, como las SSD U.2 y M.2, utilizan un protocolo de interfaz
+				llamado Nonvolatile Memory Express (NVMe), desarrollado conjuntamente por empresas del grupo de trabajo NVM Express,
+				como Samsung, Intel y Seagate. NVMe funciona con Peripheral Component Interconnect Express (también conocido como PCI
+				Express o PCIe) para ofrecer altas velocidades de transferencia de datos, alcanzando velocidades de lectura de más de
+				3000 MB/s. La latencia reducida hace que este tipo de SSD sea ideal para los jugadores y sus Playstations. Estas 
+				unidades SSD suelen venir con un disipador térmico para evitar el sobrecalentamiento.</li>
+			
+			</ul>
+			
+            <h2 id="ventajas-desventajas">Ventajas y Desventajas</h2>
+            <!-- Listas de puntos para verlo de forma limpia -->
+            
+			<h3>Ventajas</h3>
+            <ul>
+			
+                <li><span class="resaltado">Alto rendimiento:</span>las unidades de estado sólido son más
+				rápidas que los discos duros gracias a su sistema de memoria flash, lo que las hace ideales 
+				para ejecutar aplicaciones, arrancar el sistema operativo Windows o Mac o transferir archivos. 
+				Sin embargo, a medida que disminuye la capacidad de almacenamiento, las unidades de estado 
+				sólido pueden volverse cada vez más lentas.</li>
+				
+                <li><span class="resaltado">Fácil de usar:</span>las SDD son fáciles de instalar y no
+				tienen piezas móviles. Su tamaño y peso también los hacen extremadamente portátiles,
+				lo que los hace muy atractivos para dispositivos móviles populares, como el Mac Book
+				y el iPad.</li>
+				
+                <li><span class="resaltado">Durabilidad y fiabilidad:</span>los problemas térmicos causados
+				por las altas rotaciones por minuto (RPM) y el desgaste mecánico provocan deterioro y
+				degradación en los discos duros con el paso del tiempo y crean vulnerabilidades ante vibraciones,
+				caídas y sacudidas.</li>
+				
+            </ul>
+            
+            <h3>Desventajas</h3>
+            <ul>
+			
+                <li><span class="resaltado">Número limitado de escrituras:</span> la principal desventaja
+				de las SSD es que tienen un número limitado de escrituras durante su vida útil. Sin embargo,
+				técnicas como la nivelación del desgaste y el sobreaprovisionamiento ayudan a las unidades
+				SSD de clase empresarial a resistir muchos años de uso continuado.</li>
+				
+				<li><span class="resaltado">Coste:</span> aunque el coste por unidad de almacenamiento 
+				(es decir, en gigabytes [GB] o terabytes [TB]) de las SSD es más caro que el de las HDD, 
+				el consumo energético de las SSD es menor. A diferencia de las HDD, las SSD no consumen 
+				electricidad para acelerar los discos desde el punto muerto; el diseño de sus productos 
+				ahorra dinero a las empresas en sus facturas de energía.</li>
+				
+            </ul>
+			
+        </section>
+        
+    </div>
+
+    <footer>
+   <address>
+        Trabajo realizado por Iker, Urko y Gonzalo.<br>
+        Contacto:
+        <a href="mailto:correo_iker@unirioja.es">Iker</a> |
+        <a href="mailto:correo_urko@unirioja.es">Urko</a> |
+        <a href="mailto:correo_gonzalo@unirioja.es">Gonzalo</a>
+    </address>
+    <p>
+        <a href="https://validator.w3.org/check?uri=referer"><img src="imagenes/W3C_HTML5_certified.png" alt="Validación HTML5"></a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="imagenes/css.svg" alt="Validación CSS3"></a>
+    </p>
+</footer>
+</body>
+</html>

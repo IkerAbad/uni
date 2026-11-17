@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* responsive.css */
+
 @media (max-width: 600px) {
 
     header {
@@ -41,6 +43,10 @@
 
     .indice {
         padding: 10px 10px 10px 26px;
+    }
+
+    .accesos {
+        grid-template-columns: 1fr;
     }
 
     footer {

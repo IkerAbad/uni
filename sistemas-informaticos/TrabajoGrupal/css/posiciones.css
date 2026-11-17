@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* posiciones.css */
+
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +11,7 @@ body {
     font-size: 16px;
 }
 
-/* ---------- Cabecera ---------- */
+/* cabecera */
 
 header {
     position: relative;
@@ -30,8 +32,6 @@ header p {
     font-style: italic;
 }
 
-/* Banda decorativa colocada de forma absoluta bajo la cabecera */
-
 header::after {
     content: "";
     position: absolute;
@@ -42,7 +42,7 @@ header::after {
     background-color: #e07a1f;
 }
 
-/* ---------- Contenedor central ---------- */
+/* contenedor */
 
 #cuerpo {
     position: relative;
@@ -53,10 +53,11 @@ header::after {
     box-shadow: 0 0 12px #c3ccd6;
 }
 
-/* ---------- Menú de navegación ---------- */
+/* menú */
 
 nav {
-    position: relative;
+    position: sticky;
+    top: 0;
     margin: 0 -24px 24px -24px;
     padding: 0;
     background-color: #2b3d52;
@@ -92,7 +93,7 @@ nav a.activo {
     font-weight: bold;
 }
 
-/* ---------- Contenido ---------- */
+/* contenido */
 
 section {
     padding: 8px 0 16px 0;
@@ -116,7 +117,7 @@ p {
     margin: 0 0 12px 0;
 }
 
-/* ---------- Enlaces ---------- */
+/* enlaces */
 
 section a {
     color: #b35d0f;
@@ -129,7 +130,7 @@ section a:hover {
     border-bottom: 1px solid #1f2d3d;
 }
 
-/* ---------- Listas ---------- */
+/* listas */
 
 ul {
     margin: 0 0 14px 0;
@@ -140,28 +141,111 @@ li {
     margin-bottom: 6px;
 }
 
-/* La lista del índice interno lleva fondo suave y una barra a la
-   izquierda, dibujada con un elemento colocado en absoluto */
-
 .indice {
-    position: relative;
     margin-bottom: 26px;
     padding: 12px 12px 12px 30px;
+    border-left: 4px solid #2b3d52;
     background-color: #f4f7fa;
     list-style-type: square;
 }
 
-.indice::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 4px;
-    background-color: #2b3d52;
+
+/* resaltado */
+
+.resaltado {
+    font-weight: bold;
 }
 
-/* ---------- Pie de página ---------- */
+.cursiva {
+    font-style: italic;
+}
+
+/* imágenes */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 16px auto;
+}
+
+/* las imágenes de contenido, algo más estrechas que la columna */
+
+.Imagen-hdd,
+.Imagen-uso,
+.Imagen-futuro,
+.Imagen-pendrive,
+.Imagen-disquete {
+    max-width: 70%;
+}
+
+video {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* tablas */
+
+table {
+    margin: 20px auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c3ccd6;
+    border-spacing: 0;
+}
+
+th,
+td {
+    padding: 8px 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c3ccd6;
+    text-align: left;
+}
+
+th {
+    background-color: #2b3d52;
+    color: #ffffff;
+}
+
+th a {
+    color: #ffffff;
+    border-bottom: none;
+}
+
+caption {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #1f2d3d;
+}
+
+/* accesos */
+
+.accesos {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+
+.accesos li {
+    margin: 0;
+    padding: 12px 14px;
+    background-color: #f4f7fa;
+    border-radius: 8px;
+    box-shadow: 0 0 6px #d5dde5;
+}
+
+.accesos a {
+    display: block;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+/* pie */
 
 footer {
     margin-top: 0;
@@ -184,10 +268,8 @@ footer a:hover {
     color: #ffffff;
 }
 
-/* Los dos iconos de validación, con el tamaño puesto desde aquí
-   y no desde el HTML */
-
 footer img {
+    display: inline;
     height: 31px;
     margin: 10px 6px 0 6px;
 }

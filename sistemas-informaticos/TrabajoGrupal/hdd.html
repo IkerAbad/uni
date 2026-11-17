@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="disco duro magnético, HDD, platos, cabezal, pistas, sectores, cilindros, almacenamiento magnético"> 
+    <meta name="description" content="Qué es un disco duro magnético (HDD), cómo funciona su estructura física y lógica, y cuáles son sus principales ventajas e inconvenientes.">
+    <meta name="Author" content="Iker Abad, Urko, Gonzalo"> 
+    <title>Discos Duros (HDD)</title>
+    <link rel="stylesheet" type="text/css" href="css/posiciones.css"> 
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <h1>Discos Duros (HDD)</h1>
+		<p>Dispositivos de almacenamiento magnético de alta capacidad</p>
+    </header>
+
+    <div id="cuerpo">
+        
+        <!-- Menú de navegación con listado de enlaces-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="hdd.html" class="activo">Discos Duros (HDD)</a></li>
+                <li><a href="ssd.html">Unidades SSD</a></li>
+                <li><a href="flash.html">Memorias Flash</a></li>
+                <li><a href="comparativa.html">Comparativa</a></li>
+                <li><a href="uso.html">Consejos de uso</a></li>
+                <li><a href="futuro.html">Futuro</a></li>
+            </ul>
+        </nav>
+
+        <section>
+			<!--  índice de la propia pag -->
+            <h2>Índice</h2>
+            <ul class="indice">
+                <li><a href="#que-es">Qué son los discos duros magnéticos</a></li>
+                <li><a href="#funcionamiento">Funcionamiento y resumen sencillo</a></li>
+                <li><a href="#estructura">Estructura</a>
+					<ul>
+						<li><a href="#estructura-fisica">Estructura física</a></li>
+                		<li><a href="#estructura-logica">Estructura lógica y direccionamiento</a></li>
+					</ul>
+				</li>
+                <li><a href="#particiones">Particiones y sistema de arranque</a></li>
+                <li><a href="#ventajas">Ventajas e inconvenientes</a></li>
+            </ul>
+			
+             <h2 id="que-es">Qué son los discos duros magnéticos</h2>
+                <img src="imagenes/hdd.jpg" alt="Imagen de disco duro" class="Imagen-hdd">
+				<p>Un disco duro magnético (HDD, por sus siglas en inglés de <span class="cursiva">Hard Disk Drive</span>) es un dispositivo de almacenamiento de datos no volátil que emplea un sistema de grabación magnética para registrar y recuperar información digital.</p>
+           	 	<p>Constituyen una de las tecnologías de almacenamiento masivo más veteranas de la informática, destacando históricamente por ofrecer una gran capacidad de retención de datos a un coste por gigabyte muy inferior al de otras tecnologías más modernas.</p>
+                
+
+            <h2 id="funcionamiento">Funcionamiento</h2>
+                <img src="imagenes/hdd1.jpg" alt="Imagen de disco duro por dentro" class="Imagen-hdd">
+				<p>Los discos duros magnéticos utilizan platos giratorios y cabezales de lectura/escritura que se desplazan de forma sincronizada. Los platos giran a gran velocidad (por ejemplo, a 5400 o 7200 revoluciones por minuto) mientras el cabezal magnetiza o lee las diminutas particiones magnéticas de la superficie sin llegar a tocarla físicamente.</p>
+            	<p>Mediante este cambio en la orientación de las partículas magnéticas se codifican los ceros y unos del sistema binario que componen los archivos del ordenador.</p>
+                
+
+			<h2 id="estructura">Estructura</h2>
+				<p>La estructura de un disco duro se divide en dos partes:</p>
+					<ul>
+						<li>Estructura fisica</li>
+						<li>Estructura logica</li>
+					</ul>
+
+            	<h3 id="estructura-fisica">Estructura física</h3>
+                    <img src="imagenes/hdd2.png" alt="Imagen explicativa del interior de un hdd" class="Imagen-hdd">
+					<p>Físicamente, los discos duros magnéticos se componen de los siguientes elementos internos:</p>
+					<ul>
+						<li><span class="resaltado">Platos:</span> Discos planos y rígidos que componen la unidad de disco duro y disponen de dos caras útiles para grabar información.</li>
+						<li><span class="resaltado">Cabezal de lectura/escritura:</span> Elemento encargado de sobrevolar los platos para leer o modificar el estado magnético.</li>
+						<li><span class="resaltado">Pista:</span> Cada una de las circunferencias concéntricas grabadas dentro de una cara del plato.</li>
+						<li><span class="resaltado">Cilindro:</span> Conjunto de pistas correspondientes alineadas verticalmente a través de los diferentes platos.</li>
+						<li><span class="resaltado">Sector:</span> Cada una de las divisiones básicas de una pista, cuyo tamaño tradicional es de 512 bytes.</li>
+					</ul>
+                    
+
+				<h3 id="estructura-logica">Estructura lógica y direccionamiento</h3>
+                    <img src="imagenes/hdd3.png" alt="Imagen explicativa de la comparacion CHS y LBA" class="Imagen-hdd">
+					<p>A nivel lógico, el disco divide su espacio en unidades mínimas de asignación llamadas <span class="cursiva">clusters</span> (o unidades de asignación), cuyo tamaño suele variar entre 512 bytes y 64 kB. Esto optimiza el rendimiento y reduce la fragmentación mediante una tabla de asignación de ficheros (como FAT32, NTFS, Ext3 o Ext4). Para localizar los datos existen dos sistemas de direccionamiento:</p>
+					<ul>
+						<li><span class="resaltado">Sistema CHS (Cylinder-Head-Sector):</span> El sistema clásico que localiza los datos mediante tres coordenadas (cilindro, cabezal y sector). Su gran limitación histórica es que solo permitía gestionar discos de hasta 8 GB.</li>
+						<li><span class="resaltado">Sistema LBA (Logical Block Addressing):</span> El estándar actual, que evita las restricciones de CHS viendo el disco como una secuencia continua de sectores a los que asigna un número único.</li>
+					</ul>
+                    
+
+			<h2 id="particiones">Particiones y sistema de arranque</h2>
+                <img src="imagenes/hdd4.png" alt="Imagen explicativa particiones + modos de arranque" class="Imagen-hdd">
+				<p>El disco duro se puede fraccionar en subconjuntos independientes mediante particiones:</p>
+				<ul>
+					<li><span class="resaltado">Partición primaria:</span> Es la división principal y la única capaz de albergar un sistema operativo.</li>
+					<li><span class="resaltado">Partición extendida y unidades lógicas:</span> Creadas para superar la limitación clásica de particiones primarias en un disco.</li>
+				</ul>
+				<p>Para encender el equipo, el sistema recurre al arranque mediante <span class="resaltado">BIOS</span> (leyendo el registro de arranque principal o <span class="cursiva">MBR</span> en el primer sector) o mediante el sistema moderno <span class="resaltado">UEFI</span> que utiliza tablas de partición GPT y ofrece mayor seguridad y compatibilidad con discos de gran capacidad.</p>
+                
+
+			<h2 id="ventajas">Ventajas e inconvenientes</h2>
+			
+				<p>Como toda tecnología, los HDD presentan una serie de puntos fuertes y debilidades que determinan su uso actual frente a las unidades de estado sólido:</p>
+            	<ul>
+                	<li><span class="resaltado">Ventajas:</span> Su principal atractivo es el precio económico por terabyte almacenado y su altísima capacidad disponible, lo que los hace ideales para albergar grandes volúmenes de datos estáticos (como archivos multimedia o copias de seguridad).</li>
+                	<li><span class="resaltado">Inconvenientes:</span> Son considerablemente más lentos que los SSD, consumen más energía, hacen ruido debido al giro mecánico y son más sensibles a los golpes y vibraciones mientras operan.</li>
+            	</ul>
+			
+        </section>
+        
+    </div>
+
+    <footer>
+    <address>
+        Trabajo realizado por Iker, Urko y Gonzalo.<br>
+        Contacto: 
+        <a href="mailto:correo_iker@unirioja.es">Iker</a> | 
+        <a href="mailto:correo_urko@unirioja.es">Urko</a> | 
+        <a href="mailto:correo_gonzalo@unirioja.es">Gonzalo</a>
+    </address>
+	 <p>
+        <a href="https://validator.w3.org/check?uri=referer"><img src="imagenes/W3C_HTML5_certified.png" alt="Validación HTML5"></a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="imagenes/css.svg" alt="Validación CSS3"></a>
+    </p>
+</footer>
+</body>
+</html>

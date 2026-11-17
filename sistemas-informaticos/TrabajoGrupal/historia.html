@@ -10,8 +10,8 @@
         content="Recorrido por la historia del almacenamiento externo, desde las tarjetas perforadas hasta las unidades SSD actuales." />
     <meta name="Author" content="Iker Abad, Urko, Gonzalo" />
     <title>Historia del almacenamiento</title>
-    <link rel="stylesheet" type="text/css" href="posiciones.css" />
-    <link rel="stylesheet" type="text/css" href="responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/posiciones.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
 </head>
 <body>
     <header>
@@ -21,7 +21,7 @@
 
     <div id="cuerpo">
 
-        <!-- Menú de navegación -->
+        <!-- menú -->
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -35,15 +35,16 @@
             </ul>
         </nav>
 
-        <!-- Contenido de la página -->
+        <!-- contenido -->
         <section>
-            <!-- Índice de la propia página -->
-            <h3>Índice</h3>
+            <!-- índice -->
+            <h2>Índice</h2>
             <ul class="indice">
                 <li><a href="#tarjetas">Tarjetas perforadas</a></li>
+                <li><a href="#cintas">Cintas magnéticas</a></li>
+                <li><a href="#discos-duros">Discos duros</a></li>
                 <li><a href="#disquetes">Disquetes</a></li>
                 <li><a href="#cd">Discos compactos y DVD</a></li>
-                <li><a href="#discos-duros">Discos duros</a></li>
                 <li><a href="#usb">Memorias USB</a></li>
                 <li><a href="#ssd">Los SSD actuales</a></li>
             </ul>
@@ -57,7 +58,26 @@
                 empleándose hasta los años setenta para introducir programas en los ordenadores.</p>
             <p>Se podían ordenar, apilar y transportar. Borrar, no: un agujero era para siempre.</p>
 
+            <h2 id="cintas">Cintas magnéticas</h2>
+            <p>La cinta llegó antes que casi todo lo demás. Ya el Univac I, en 1951, guardaba los
+                datos en cinta magnética, y durante las décadas siguientes fue el soporte de las
+                grandes instalaciones: cabía mucho, se cambiaba de carrete con facilidad y salía
+                barata por megabyte.</p>
+            <p>Lo curioso es que nunca se fue del todo. Los sistemas de copia de seguridad de
+                empresas y universidades todavía suelen acabar en cinta, porque guardar años de
+                información sin tocarla sale mucho más barato que en disco. El usuario de casa no
+                la ve, pero sigue ahí detrás.</p>
+
+            <h2 id="discos-duros">Discos duros</h2>
+            <p>El primer disco duro fue el IBM RAMAC 350, de 1956. Pesaba cerca de una tonelada y
+                guardaba cinco megabytes en cincuenta platos de 24 pulgadas.</p>
+            <p>Con el tiempo los platos se hicieron más pequeños y la densidad creció sin parar. En
+                los ochenta el disco duro salió de la sala de máquinas y se instaló dentro del
+                ordenador personal. Hoy un modelo de sobremesa guarda varios terabytes y sigue
+                siendo la opción más barata cuando hace falta mucho espacio.</p>
+
             <h2 id="disquetes">Disquetes</h2>
+            <img src="imagenes/disquete.jpg" alt="Unidades de disquete de 8, 5 y 3 pulgadas" class="Imagen-disquete">
             <p>El disquete apareció en 1971 de la mano de IBM. Era un disco magnético protegido por
                 una funda cuadrada que sí permitía guardar y borrar datos muchas veces, algo
                 impensable con una tarjeta perforada.</p>
@@ -75,14 +95,6 @@
                 convivieron con el disquete y acabaron por sustituirlo para guardar copias.</p>
             <p>Fue el primer paso para meter vídeo en un disco que cabía en la mano.</p>
 
-            <h2 id="discos-duros">Discos duros</h2>
-            <p>El primer disco duro fue el IBM RAMAC 350, de 1956. Pesaba cerca de una tonelada y
-                guardaba cinco megabytes en cincuenta platos de 24 pulgadas.</p>
-            <p>Con el tiempo los platos se hicieron más pequeños y la densidad creció sin parar. En
-                los ochenta el disco duro salió de la sala de máquinas y se instaló dentro del
-                ordenador personal. Hoy un modelo de sobremesa guarda varios terabytes y sigue
-                siendo la opción más barata cuando hace falta mucho espacio.</p>
-
             <h2 id="usb">Memorias USB</h2>
             <p>La memoria USB apareció en el año 2000. Es una memoria flash dentro de una carcasa
                 pequeña que se conecta a un puerto USB, sin lector ni cables.</p>
@@ -93,14 +105,14 @@
             <p>Las primeras unidades de estado sólido comerciales llegaron a principios de los
                 noventa, caras y de poca capacidad. No se generalizaron en los ordenadores
                 domésticos hasta la década siguiente.</p>
-            <p>Al no tener partes móviles son mucho más rápidas que un disco duro. Los modelos
-                actuales, conectados por PCIe con el protocolo NVMe, pasan de los 3000 megabytes por
-                segundo en lectura.</p>
+            <p>Su ventaja frente al disco duro es que no tienen partes móviles, así que no hay que
+                esperar a que un plato gire ni a que un cabezal se desplace. En pocos años pasaron de
+                ser un lujo a venir de serie en portátiles y ordenadores de sobremesa.</p>
         </section>
 
     </div>
 
-    <!-- Pie de página -->
+    <!-- pie -->
     <footer>
     <address>
         Trabajo realizado por Iker, Urko y Gonzalo.<br>
@@ -110,9 +122,9 @@
         <a href="mailto:correo_gonzalo@unirioja.es">Gonzalo</a>
     </address>
     <p>
-        <a href="https://validator.w3.org/check?uri=referer"><img src="W3C_HTML5_certified.png"
+        <a href="https://validator.w3.org/check?uri=referer"><img src="imagenes/W3C_HTML5_certified.png"
             alt="Validación HTML5"></a>
-        <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="css.svg"
+        <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="imagenes/css.svg"
             alt="Validación CSS3"></a>
     </p>
     </footer>
