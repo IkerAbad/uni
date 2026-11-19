@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-/* posiciones.css */
-
 body {
     margin: 0;
     padding: 0;
@@ -68,16 +66,16 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    overflow: hidden;
 }
 
 nav li {
-    display: inline-block;
-    margin: 0;
+    float: left;
 }
 
 nav a {
     display: block;
-    padding: 12px 14px;
+    padding: 12px 12px;
     color: #e8eef4;
     text-decoration: none;
 }
@@ -88,7 +86,7 @@ nav a:hover {
 }
 
 nav a.activo {
-    background-color: #e07a1f;
+    background-color: #a8540b;
     color: #ffffff;
     font-weight: bold;
 }
@@ -120,7 +118,7 @@ p {
 /* enlaces */
 
 section a {
-    color: #b35d0f;
+    color: #a8540b;
     text-decoration: none;
     border-bottom: 1px dotted #e07a1f;
 }
@@ -149,6 +147,10 @@ li {
     list-style-type: square;
 }
 
+.indice a {
+    padding: 2px 0;
+}
+
 
 /* resaltado */
 
@@ -169,13 +171,15 @@ img {
     margin: 16px auto;
 }
 
-/* las imágenes de contenido, algo más estrechas que la columna */
+/* las imágenes de contenido */
 
 .Imagen-hdd,
 .Imagen-uso,
 .Imagen-futuro,
 .Imagen-pendrive,
-.Imagen-disquete {
+.Imagen-disquete,
+.Imagen-ssd,
+.Imagen-tipos {
     max-width: 70%;
 }
 
@@ -228,12 +232,13 @@ caption {
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 14px;
 }
 
 .accesos li {
+    box-sizing: border-box;
     margin: 0;
-    padding: 12px 14px;
+    padding: 12px 12px;
+    border: 6px solid #ffffff;
     background-color: #f4f7fa;
     border-radius: 8px;
     box-shadow: 0 0 6px #d5dde5;
@@ -261,6 +266,7 @@ footer address {
 }
 
 footer a {
+    padding: 2px 0;
     color: #f0b375;
 }
 

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="SSD, Solid State Drives, NAND Flash, Storage">
+    <meta name="description" content="This page contains information about Solid State Drives (SSD).">
+    <meta name="Author" content="Iker Abad, Urko, Gonzalo">
+    <title>Solid State Drives (SSD)</title>
+    <link rel="stylesheet" type="text/css" href="css/posiciones.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <h1>Solid State Drives (SSD)</h1>
+        <p>Solid-State Storage Devices</p>
+    </header>
+
+       
+
+    <div id="cuerpo">
+
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="index-en.html" >Home</a></li>
+                <li><a href="historia-en.html">History</a></li>
+                <li><a href="hdd-en.html">Hard Disk Drives (HDD)</a></li>
+                <li><a href="ssd-en.html" class="activo">SSD Drives</a></li>
+                <li><a href="flash-en.html">Flash Memory</a></li>
+                <li><a href="comparativa-en.html">Comparison</a></li>
+                <li><a href="uso-en.html">Usage Tips</a></li>
+                <li><a href="futuro-en.html">Future</a></li>
+                <li><a href="ssd.html">ES</a></li>
+            </ul>
+        </nav>
+
+           
+
+        <section>
+
+            <!-- Page index -->
+            <h2>Index</h2>
+            <ul class="indice">
+                <li><a href="#what-are-they">What Are They?</a></li>
+                <li><a href="#technology">NAND Flash Technology</a></li>
+                <li><a href="#operation">How They Work</a></li>
+                <li><a href="#types">Types of Solid-State Drives</a></li>
+                <li><a href="#advantages-disadvantages">Advantages and Disadvantages</a></li>
+            </ul>
+
+            <h2 id="what-are-they">What Are Solid-State Drives (SSD)?</h2>
+
+            <img src="imagenes/SSD.png" alt="Solid-state drive image" class="Imagen-ssd">
+
+            <p>Solid State Drives, commonly known by the acronym SSD (Solid State Drive), are a new generation of data storage devices that have progressively replaced traditional mechanical hard disk drives (HDDs).</p>
+            <p>Unlike HDDs, which store information on rotating magnetic platters, an SSD uses an array of solid-state memory chips. This means that SSDs contain no moving or mechanical parts whatsoever. All information is stored through electrical impulses, making these devices extremely fast, silent, and resistant to shocks or vibrations.</p>
+
+               
+
+            <h2 id="technology">NAND Flash Technology</h2>
+
+            <p>The core technology that allows SSDs to retain information even when the computer is turned off is non-volatile <span class="resaltado">NAND Flash</span> memory.</p>
+            <p>At a microscopic level, an SSD is made up of billions of memory cells that act as tiny switches (floating-gate transistors) capable of trapping electrons and maintaining a binary state (zeros and ones).</p>
+
+            <h3>Memory Cell Density</h3>
+
+            <p>The capacity, durability, and price of an SSD depend directly on the amount of information that can be stored in each physical memory cell. There are four main classifications:</p>
+            <ul>
+                <li><span class="resaltado">SLC (Single-Level Cell):</span> Stores 1 bit per cell. It is the fastest technology with the longest lifespan, but its very high cost limits it almost exclusively to enterprise servers.</li>
+                <li><span class="resaltado">MLC (Multi-Level Cell):</span> Stores 2 bits per cell. It offers a good balance between performance and durability.</li>
+                <li><span class="resaltado">TLC (Triple-Level Cell):</span> Stores 3 bits per cell. It is currently the standard for most personal computers, helping reduce device costs.</li>
+                <li><span class="resaltado">QLC (Quad-Level Cell):</span> Stores 4 bits per cell. These are the most affordable and highest-capacity SSDs available today, although they offer slightly lower speeds and a shorter lifespan.</li>
+            </ul>
+
+               
+
+            <h3>Evolution: 3D NAND Memory</h3>
+
+            <p>Initially, memory cells were arranged side by side on a flat surface (2D). To overcome physical space limitations inside chips and increase storage capacity, the industry developed <span class="resaltado">3D NAND (or V-NAND)</span> technology. This technique consists of stacking memory-cell layers vertically to create three-dimensional structures. Thanks to this innovation, modern SSDs can offer several terabytes (TB) of storage in formats as small as a stick of chewing gum (M.2).</p>
+
+               
+
+            <h2 id="operation">How an SSD Works</h2>
+
+            <p>Since there are no spinning platters or moving heads searching for data, SSD operation is entirely based on electronic management and parallel processing.</p>
+
+               
+
+            <h3>The Controller</h3>
+
+            <p>The most important component of an SSD, besides the memory chips themselves, is the <span class="resaltado">controller</span>. It is a small but powerful integrated processor that acts as the "brain" of the drive. Its job is to communicate with the computer's motherboard and determine exactly which memory cells should be used to read or write incoming data.</p>
+
+            <h3>The Read and Write Process</h3>
+
+            <ul>
+                <li><span class="resaltado">Reading:</span> When the operating system requests a file, the controller instantly locates the exact memory addresses and sends electrical signals to retrieve the data. Since there is no mechanical seek time (physical latency), information is loaded almost instantly.</li>
+                <li><span class="resaltado">Writing and Erasing:</span> NAND memory has a unique characteristic: it cannot overwrite data directly on a cell that already contains information. To update a file, the controller must first read an entire block of cells, erase it completely, and then rewrite the modified data. This process, known as the "erase-write cycle", is responsible for the gradual wear of the drive.</li>
+            </ul>
+
+               
+
+            <h3>TRIM Command</h3>
+
+            <p>To reduce wear and avoid the slowdown caused by write and erase operations, modern SSDs use the <span class="resaltado">TRIM</span> command. This command, sent by the operating system, informs the SSD controller which data blocks are no longer in use and can be erased in the background. As a result, when the user needs to save a new file, the SSD already has empty blocks available for immediate writing, maintaining maximum performance over time.</p>
+
+            <h2 id="types">Types of Solid-State Drives</h2>
+
+            <p>There are two main types of SSD drives:</p>
+
+            <img src="imagenes/Sata-Nvme.jpg" alt="SSD types image" class="Imagen-tipos">
+            <ul>
+                
+                <li><span class="resaltado">mSATA III, SATA III and traditional SSDs:</span> Although SATA SSDs are probably the most common, they are considered somewhat of a legacy technology because they were originally designed to replace traditional hard drives. Depending on your device, such as a desktop PC, you may need a mounting bracket or enclosure. While their ease of installation helped promote SSD adoption, the SATA interface is gradually being replaced by PCIe and NVMe SSDs. Compared with newer SSD technologies, mSATA III, SATA III and traditional SSDs are limited in terms of speed and performance.</li>
+                <li><span class="resaltado">PCIe and NVMe SSDs:</span> More recent form factors, such as U.2 and M.2 SSDs, use an interface protocol known as Non-Volatile Memory Express (NVMe), developed jointly by companies within the NVM Express working group, including Samsung, Intel and Seagate. NVMe operates over Peripheral Component Interconnect Express (PCI Express or PCIe) to deliver very high data transfer speeds, reaching read speeds above 3000 MB/s. Reduced latency makes this type of SSD especially suitable for gamers and gaming consoles. These SSDs often include heatsinks to prevent overheating.</li>
+            </ul>
+
+            <h2 id="advantages-disadvantages">Advantages and Disadvantages</h2>
+
+            <h3>Advantages</h3>
+            <ul>
+                <li><span class="resaltado">High Performance:</span> Solid-state drives are faster than hard disk drives thanks to their flash memory technology, making them ideal for running applications, booting Windows or macOS, and transferring files. However, as available storage space decreases, SSD performance may gradually decline.</li>
+                <li><span class="resaltado">Ease of Use:</span> SSDs are easy to install and contain no moving parts. Their small size and low weight also make them extremely portable, making them very attractive for popular mobile devices such as MacBooks and iPads.</li>
+                <li><span class="resaltado">Durability and Reliability:</span> Thermal issues caused by high rotations per minute (RPM) and mechanical wear lead to deterioration and degradation in hard drives over time, making them vulnerable to vibrations, drops, and shocks. SSDs avoid these problems because they have no moving components.</li>
+            </ul>
+
+            <h3>Disadvantages</h3>
+            <ul>
+                <li><span class="resaltado">Limited Number of Write Cycles:</span> The main disadvantage of SSDs is that they have a limited number of write operations during their lifetime. However, techniques such as wear leveling and over-provisioning help enterprise-class SSDs withstand many years of continuous use.</li>
+                <li><span class="resaltado">Cost:</span> Although the cost per storage unit (gigabytes [GB] or terabytes [TB]) is higher for SSDs than for HDDs, SSDs consume less energy. Unlike HDDs, SSDs do not require electricity to spin disks up from rest. Their design helps companies reduce energy costs.</li>
+            </ul>
+
+        </section>
+
+    </div>
+
+       
+
+    <footer>
+        <address>
+            Project carried out by Iker, Urko and Gonzalo.<br>
+            Contact:
+            <a href="mailto:correo_iker@unirioja.es">Iker</a> |
+            <a href="mailto:correo_urko@unirioja.es">Urko</a> |
+            <a href="mailto:correo_gonzalo@unirioja.es">Gonzalo</a>
+        </address>
+
+        <p>
+            <a href="https://validator.w3.org/check?uri=referer">
+                <img src="imagenes/W3C_HTML5_certified.png"
+                    alt="HTML5 Validation">
+            </a>
+
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img src="imagenes/css.svg"
+                    alt="CSS3 Validation">
+            </a>
+        <a href="https://achecker.ca/"><img src="imagenes/wcag2AA.png"
+            alt="WCAG 2.0 AA accessibility"></a>
+        </p>
+    <p>Accessibility checked with aChecker, level AA.</p>
+
+    </footer>
+
+</body>
+</html>

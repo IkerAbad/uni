@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-/* responsive.css */
-
 @media (max-width: 600px) {
 
     header {
@@ -26,6 +24,7 @@
 
     nav li {
         display: block;
+        float: none;
     }
 
     nav a {

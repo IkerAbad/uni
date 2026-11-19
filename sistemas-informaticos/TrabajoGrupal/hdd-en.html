@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="magnetic hard drive, HDD, platters, read/write head, tracks, sectors, cylinders, magnetic storage">
+    <meta name="description" content="What a magnetic hard drive (HDD) is, how its physical and logical structure works, and its main advantages and disadvantages.">
+    <meta name="Author" content="Iker Abad, Urko, Gonzalo">
+    <title>Hard Disk Drives (HDD)</title>
+    <link rel="stylesheet" type="text/css" href="css/posiciones.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+</head>
+<body>
+    <header>
+        <h1>Hard Disk Drives (HDD)</h1>
+        <p>High-capacity magnetic storage devices</p>
+    </header>
+
+      
+
+    <div id="cuerpo">
+
+        <nav>
+            <ul>
+                <li><a href="index-en.html" >Home</a></li>
+                <li><a href="historia-en.html">History</a></li>
+                <li><a href="hdd-en.html" class="activo">Hard Disk Drives (HDD)</a></li>
+                <li><a href="ssd-en.html">SSD Drives</a></li>
+                <li><a href="flash-en.html">Flash Memory</a></li>
+                <li><a href="comparativa-en.html">Comparison</a></li>
+                <li><a href="uso-en.html">Usage Tips</a></li>
+                <li><a href="futuro-en.html">Future</a></li>
+                <li><a href="hdd.html">ES</a></li>
+            </ul>
+        </nav>
+
+          
+
+        <section>
+
+            <h2>Index</h2>
+            <ul class="indice">
+                <li><a href="#what-is">What Are Magnetic Hard Drives?</a></li>
+                <li><a href="#operation">Operation and Simple Summary</a></li>
+                <li><a href="#structure">Structure</a>
+                    <ul>
+                        <li><a href="#physical-structure">Physical Structure</a></li>
+                        <li><a href="#logical-structure">Logical Structure and Addressing</a></li>
+                    </ul>
+                </li>
+                <li><a href="#partitions">Partitions and Boot System</a></li>
+                <li><a href="#advantages">Advantages and Disadvantages</a></li>
+            </ul>
+
+            <h2 id="what-is">What Are Magnetic Hard Drives?</h2>
+            <img src="imagenes/hdd.jpg" alt="Hard drive image" class="Imagen-hdd">
+            <p>A magnetic hard drive (HDD, short for <span class="cursiva">Hard Disk Drive</span>) is a non-volatile data storage device that uses a magnetic recording system to store and retrieve digital information.</p>
+            <p>They are one of the oldest mass storage technologies in computing and have historically stood out for offering large data storage capacities at a much lower cost per gigabyte than more modern technologies.</p>
+
+              
+
+            <h2 id="operation">Operation</h2>
+            <img src="imagenes/hdd1.jpg" alt="Internal hard drive image" class="Imagen-hdd">
+            <p>Magnetic hard drives use rotating platters and synchronized read/write heads. The platters spin at high speeds (for example, 5400 or 7200 revolutions per minute) while the head magnetizes or reads tiny magnetic sections of the surface without physically touching it.</p>
+            <p>By changing the orientation of magnetic particles, the zeros and ones of the binary system that make up computer files are encoded.</p>
+
+              
+
+            <h2 id="structure">Structure</h2>
+            <p>The structure of a hard drive is divided into two parts:</p>
+            <ul>
+                <li>Physical structure</li>
+                <li>Logical structure</li>
+            </ul>
+
+              
+
+            <h3 id="physical-structure">Physical Structure</h3>
+            <img src="imagenes/hdd2.png" alt="Explanation of HDD internal structure" class="Imagen-hdd">
+            <p>Physically, magnetic hard drives are composed of the following internal components:</p>
+            <ul>
+                <li><span class="resaltado">Platters:</span> Flat, rigid disks that make up the hard drive and provide two usable surfaces for storing information.</li>
+                <li><span class="resaltado">Read/write head:</span> Component responsible for hovering above the platters to read or modify their magnetic state.</li>
+                <li><span class="resaltado">Track:</span> Each concentric circle recorded on a platter surface.</li>
+                <li><span class="resaltado">Cylinder:</span> A set of corresponding tracks vertically aligned across multiple platters.</li>
+                <li><span class="resaltado">Sector:</span> One of the basic divisions of a track, traditionally sized at 512 bytes.</li>
+            </ul>
+
+              
+
+            <h3 id="logical-structure">Logical Structure and Addressing</h3>
+            <img src="imagenes/hdd3.png" alt="CHS and LBA comparison image" class="Imagen-hdd">
+            <p>At the logical level, the disk divides its space into minimum allocation units called <span class="cursiva">clusters</span> (or allocation units), typically ranging from 512 bytes to 64 kB in size. This improves performance and reduces fragmentation through a file allocation table (such as FAT32, NTFS, Ext3, or Ext4). Two addressing systems are used to locate data:</p>
+            <ul>
+                <li><span class="resaltado">CHS (Cylinder-Head-Sector) System:</span> The traditional system that locates data using three coordinates (cylinder, head, and sector). Its major historical limitation was that it could only manage drives of up to 8 GB.</li>
+                <li><span class="resaltado">LBA (Logical Block Addressing) System:</span> The current standard, which avoids CHS limitations by viewing the disk as a continuous sequence of sectors, each assigned a unique number.</li>
+            </ul>
+
+              
+
+            <h2 id="partitions">Partitions and Boot System</h2>
+            <img src="imagenes/hdd4.png" alt="Partitions and boot modes image" class="Imagen-hdd">
+            <p>A hard drive can be divided into independent subsets through partitions:</p>
+            <ul>
+                <li><span class="resaltado">Primary partition:</span> The main division and the only one capable of containing an operating system.</li>
+                <li><span class="resaltado">Extended partition and logical drives:</span> Created to overcome the classic limitation on the number of primary partitions on a disk.</li>
+            </ul>
+            <p>To start the computer, the system boots either through <span class="resaltado">BIOS</span> (reading the Master Boot Record or <span class="cursiva">MBR</span> from the first sector) or through the modern <span class="resaltado">UEFI</span> system, which uses GPT partition tables and offers greater security and compatibility with large-capacity drives.</p>
+
+              
+
+            <h2 id="advantages">Advantages and Disadvantages</h2>
+
+            <p>Like any technology, HDDs have strengths and weaknesses that determine their current use compared to solid-state drives:</p>
+            <ul>
+                <li><span class="resaltado">Advantages:</span> Their main attraction is the low cost per terabyte and their very high storage capacity, making them ideal for storing large volumes of static data such as multimedia files and backups.</li>
+                <li><span class="resaltado">Disadvantages:</span> They are considerably slower than SSDs, consume more power, generate noise due to their mechanical rotation, and are more vulnerable to shocks and vibrations while operating.</li>
+            </ul>
+
+        </section>
+
+    </div>
+
+      
+
+    <footer>
+        <address>
+            Work carried out by Iker, Urko and Gonzalo.<br>
+            Contact:
+            <a href="mailto:correo_iker@unirioja.es">Iker</a> |
+            <a href="mailto:correo_urko@unirioja.es">Urko</a> |
+            <a href="mailto:correo_gonzalo@unirioja.es">Gonzalo</a>
+        </address>
+
+        <p>
+            <a href="https://validator.w3.org/check?uri=referer">
+                <img src="imagenes/W3C_HTML5_certified.png" alt="HTML5 Validation">
+            </a>
+
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img src="imagenes/css.svg" alt="CSS3 Validation">
+            </a>
+        <a href="https://achecker.ca/"><img src="imagenes/wcag2AA.png"
+            alt="WCAG 2.0 AA accessibility"></a>
+        </p>
+    <p>Accessibility checked with aChecker, level AA.</p>
+
+    </footer>
+</body>
+</html>
