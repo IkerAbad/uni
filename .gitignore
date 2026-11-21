@@ -1,0 +1,20 @@
+# Binarios y compilados
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.dll
+
+# Code::Blocks
+*.depend
+*.layout
+bin/
+obj/
+
+# Editores
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
