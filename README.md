@@ -42,6 +42,7 @@ asignatura/
 - Un commit por ejercicio o práctica terminada
 - Los binarios no se versionan (ver `.gitignore`)
 - Código comentado en español
+- Todo cambio va por rama y pull request, con merge a `main`
 
 ## Licencia
 
@@ -90,6 +91,7 @@ subject/
 - One commit per finished exercise or practical
 - Binaries are not versioned (see `.gitignore`)
 - Code commented in Spanish
+- Every change goes through a branch and a pull request, merged into `main`
 
 ## License
 
