@@ -14,7 +14,7 @@ ejecuta; los apuntes y el material de lectura viven fuera.
 | Estructura de computadores | `estructura-computadores` | — |
 | Bases de datos | `bases-de-datos` | SQL |
 
-Las asignaturas sin componente de programación no aparecen aquí.
+Las asignaturas sin componente de programación aparecen con «—» en la columna de herramienta.
 
 ## Qué hay ahora
 
@@ -65,7 +65,7 @@ Code and practicals for the degree. This repository holds only what is compiled 
 | Computer architecture | `estructura-computadores` | — |
 | Databases | `bases-de-datos` | SQL |
 
-Subjects with no programming component do not appear here.
+Subjects with no programming component are listed with “—” in the tool column.
 
 ## What is here now
 
