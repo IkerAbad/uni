@@ -18,7 +18,7 @@ Las asignaturas sin componente de programación aparecen con «—» en la colum
 
 ## Qué hay ahora
 
-- `metodologia-programacion`: 74 ejercicios en C++ (prácticas P1 a P8 y los ejercicios de tema `T2_EP`). 69 pasan la comprobación de sintaxis con g++ en C++17; los otros 5 (en P6, P7 y P8) son enunciados con huecos (`........`) que todavía no he completado. Parte del código de partida es de los profesores y así consta en sus cabeceras.
+- `metodologia-programacion`: 74 ejercicios en C++ (prácticas P1 a P8 y los ejercicios de tema `T2_EP`). 69 pasan la comprobación de sintaxis con g++ en C++17; los otros 5 (en P6, P7 y P8) son enunciados con huecos (`........`) que todavía no he completado. Parte del código de partida es de los profesores y así consta en sus cabeceras. Cada ejercicio trae su proyecto de Code::Blocks (`.cbp`).
 - `sistemas-informaticos`: prácticas de HTML y CSS (`HTMLyCSS`) y un trabajo en grupo de tres personas (`TrabajoGrupal`) sobre almacenamiento, con ocho páginas en español y su versión en inglés.
 - El resto de carpetas están preparadas y vacías.
 
@@ -69,7 +69,7 @@ Subjects with no programming component are listed with “—” in the tool col
 
 ## What is here now
 
-- `metodologia-programacion`: 74 C++ exercises (practicals P1 to P8 and the topic exercises `T2_EP`). 69 pass a syntax check with g++ in C++17; the other 5 (in P6, P7 and P8) are exercise sheets with blanks (`........`) that I have not completed yet. Some of the starting code comes from the teachers, as the file headers say.
+- `metodologia-programacion`: 74 C++ exercises (practicals P1 to P8 and the topic exercises `T2_EP`). 69 pass a syntax check with g++ in C++17; the other 5 (in P6, P7 and P8) are exercise sheets with blanks (`........`) that I have not completed yet. Some of the starting code comes from the teachers, as the file headers say. Each exercise includes its Code::Blocks project (`.cbp`).
 - `sistemas-informaticos`: HTML and CSS practicals (`HTMLyCSS`) and a group project by three people (`TrabajoGrupal`) about storage, with eight pages in Spanish and an English version.
 - The remaining folders are set up and empty.
 
