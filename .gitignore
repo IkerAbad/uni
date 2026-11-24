@@ -18,3 +18,9 @@ obj/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Local notes, never published
+AGENTS.md
+CLAUDE.md
+.opencode/
+.claude/
