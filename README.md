@@ -9,6 +9,8 @@ ejecuta; los apuntes y el material de lectura viven fuera.
 |---|---|---|
 | Metodología de la programación | `metodologia-programacion` | C++17 |
 | Cálculo matricial y vectorial | `calculo-matricial` | SageMath sobre Jupyter |
+| Cálculo infinitesimal | `calculo-infinitesimal` | SageMath sobre Jupyter |
+| Matemática discreta | `matematica-discreta` | SageMath sobre Jupyter |
 | Sistemas informáticos | `sistemas-informaticos` | CPUSim |
 | Tecnología de la programación | `tecnologia-programacion` | C++17 |
 | Estructura de computadores | `estructura-computadores` | — |
@@ -33,8 +35,9 @@ Las asignaturas sin componente de programación aparecen con «—» en la colum
 
 ```
 asignatura/
-├── Ejercicios/  práctica personal: pruebas y ejercicios sueltos, no se entrega
-└── Entregas/    solo trabajo propio acabado, cuando toca subirlo al aula virtual
+├── Ejercicios/          práctica personal: pruebas y ejercicios sueltos, no se entrega
+├── Practicas SageMath/  cuadernos .ipynb de los grupos informáticos
+└── Entregas/            solo trabajo propio acabado, cuando toca subirlo al aula virtual
 ```
 
 ## Convenciones
